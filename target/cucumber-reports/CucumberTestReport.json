@@ -1,0 +1,759 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-14T15:15:29.543Z",
+        "line": 7,
+        "name": "",
+        "description": "    As a user I Login to celink and verify common question page title",
+        "id": "my-loan-details-and-borrower-details-verification.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4364100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"CommonQuestion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"CommonQuestion\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6591617400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14577172700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters username and password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7257649000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on common question menu",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.click_on_common_question_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5362394900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify page header common questions title",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.verify_page_header_common_questions_title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-14T15:15:28.824Z",
+        "line": 19,
+        "name": "",
+        "description": "    As a user I Login to celink and navigated to View Loan Details and verified Current Net Principal Limit text",
+        "id": "my-loan-details-and-borrower-details-verification.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2199600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"MyLoanDetails\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"MyLoanDetails\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6436609700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13079073100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters username and password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5385174100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click on Loan Details Tab",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.click_on_Loan_Details_Tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5304783500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify Current Net Principal Limit text",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.verify_Current_Net_Principal_Limit_text()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-14T15:15:28.344Z",
+        "line": 31,
+        "name": "",
+        "description": "    As a user I Login to celink and navigated to borrower details and verified name",
+        "id": "my-loan-details-and-borrower-details-verification.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46580200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"BorrowerDetails\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"BorrowerDetails\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5652061400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10718965800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User enters username and password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5505463800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click on Borrower Details Tab",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.click_on_Borrower_Details_Tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5293570100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "verify Name in borrower details",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.verify_Name_in_borrower_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "My loan details and borrower details verification.",
+    "description": "",
+    "id": "my-loan-details-and-borrower-details-verification.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/borrowerPortalMyLoan/BorrowerPortalMyLoan.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-14T15:15:29.650Z",
+        "line": 10,
+        "name": "As a user I want to Login and validate all the questions",
+        "description": "",
+        "id": "login-and-upload-a-form-in-common-forms-page;as-a-user-i-want-to-login-and-validate-all-the-questions",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4544900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"CommonQuestionsBasedOnHeadings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"CommonQuestionsBasedOnHeadings\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6517081000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11445592900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters username and password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4510278600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click on Common Questions button in My Loan Page",
+            "match": {
+              "location": "MyLoanSteps.user_Click_on_Common_Questions_button_in_My_Loan_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5593533000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to \"Common Questions\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Common Questions\"",
+                  "offset": 24
+                }
+              ],
+              "location": "CommonQuestionsSteps.user_should_navigate_to_Page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36837112000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify all the questions should display",
+            "match": {
+              "location": "CommonQuestionsSteps.verify_all_the_questions_should_display()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "Login and Upload a form in common forms Page",
+    "description": "",
+    "id": "login-and-upload-a-form-in-common-forms-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/commonQuestions/CommonQuestions.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-14T15:15:29.688Z",
+        "line": 7,
+        "name": "",
+        "description": "    As a user I Login with invalid password and should get Incorrect username or password massage display",
+        "id": "user-login-to-borrower-portal.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1355300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"UserLoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"UserLoginPage\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6533696900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13781069600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters username and invalid password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_invalid_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5600837300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be able to view message as Incorrect username or password",
+            "match": {
+              "location": "LoginSteps.user_should_be_able_to_view_message_as_Incorrect_username_or_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-14T15:15:29.186Z",
+        "line": 18,
+        "name": "",
+        "description": "    As a user I Login with valid email and password and should signin and able to view My Loan heder name",
+        "id": "user-login-to-borrower-portal.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1340300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"MyLoanDetails\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"MyLoanDetails\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6061649300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12693596700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters username and password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5326153000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify user landing page display\u0027s header as My Loan",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.verify_user_landing_page_display_s_header_as_My_Loan()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5291007400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify loan information Account number",
+            "match": {
+              "location": "BorrowerPortalMyLoanSteps.verify_loan_information_Account_number()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "User Login to Borrower Portal.",
+    "description": "",
+    "id": "user-login-to-borrower-portal.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/login/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-14T15:15:28.950Z",
+        "line": 10,
+        "name": "As a user I want to Login and upload documents in common forms page",
+        "description": "",
+        "id": "login-and-upload-a-form-in-common-forms-page;as-a-user-i-want-to-login-and-upload-documents-in-common-forms-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1890200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I load testdata from: \"BorrowerPortalVerifyData.json\", \"CommonFormsPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BorrowerPortalVerifyData.json\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"CommonFormsPage\"",
+                  "offset": 55
+                }
+              ],
+              "location": "CommonSteps.i_load_testdata_from(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6314064100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "As a user I logged into borrower portal",
+            "match": {
+              "location": "LoginSteps.as_a_user_I_logged_into_borrower_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13033008900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters username and password and click on SignIn button",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password_and_click_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4218282800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click on Common Forms button",
+            "match": {
+              "location": "MyLoanSteps.user_Click_on_Common_Forms_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2409848400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to CommonForms page and click on the Upload now button",
+            "match": {
+              "location": "UploadFormSteps.user_should_navigate_to_CommonForms_page_and_click_on_the_Upload_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5288340200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user navigate to Form Upload Page label should be validate",
+            "match": {
+              "location": "UploadFormSteps.user_navigate_to_Form_Upload_Page_label_should_be_validate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3818684300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on select form button",
+            "match": {
+              "location": "UploadFormSteps.user_click_on_select_form_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2770689000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should Upload pop up will open and give the Path and click open",
+            "match": {
+              "location": "UploadFormSteps.user_should_Upload_pop_up_will_open_and_give_the_Path_and_click_open()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5280290200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should be able to see the text as Electronic_Fund_Transfer_Direct_Deposit_Form.pdf",
+            "match": {
+              "location": "UploadFormSteps.user_should_be_able_to_see_the_text_as_Electronic_Fund_Transfer_Direct_Deposit_Form_pdf()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          },
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "Login and Upload a form in common forms Page",
+    "description": "",
+    "id": "login-and-upload-a-form-in-common-forms-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/uploadForm/UploadForm.feature",
+    "tags": [
+      {
+        "name": "@Demo",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+com\cl\borrower_web\steps\CommonSteps.class
+com\cl\borrower_web\runners\WebTestRunner.class
+com\cl\borrower_web\runners\FailedWebTestRunner.class
+com\cl\borrower_web\steps\LoginSteps.class
+com\cl\borrower_web\steps\BorrowerPortalMyLoanSteps.class

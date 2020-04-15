@@ -1,0 +1,6 @@
+2020-03-25 20:56:04,157 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-25 20:56:09,484 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to login to Zero Bank *****************
+2020-03-25 20:56:09,486 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I want to login to Zero Bank
+2020-03-25 20:56:09,494 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to login to Zero Bank *****************
+2020-03-25 20:56:09,496 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-03-25 20:56:10,455 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************

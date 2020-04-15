@@ -1,0 +1,41 @@
+2020-04-03 16:26:25,704 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-03 16:26:49,721 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-04-03 16:26:49,795 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-03 16:26:53,940 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-03 16:26:54,281 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-04-03 16:26:54,282 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-04-03 16:26:56,800 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-03 16:26:56,959 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-03 16:27:03,979 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-03 16:27:03,987 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-03 16:27:07,084 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-03 16:27:09,227 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-03 16:27:09,586 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-03 16:27:11,327 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-03 16:27:11,331 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-03 16:27:12,608 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-03 16:27:12,610 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-03 16:27:21,138 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-03 16:27:21,145 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-03 16:27:24,005 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-03 16:27:25,845 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-03 16:27:26,311 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-03 16:27:27,750 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-03 16:27:27,751 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-03 16:27:29,353 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-03 16:27:29,354 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-03 16:27:35,354 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-03 16:27:35,355 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-03 16:27:35,456 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-03 16:27:35,910 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-03 16:27:38,939 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-03 16:27:39,502 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-04-03 16:27:40,521 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-04-03 16:27:40,970 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-04-03 16:27:41,445 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered description
+2020-04-03 16:27:42,889 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-04-03 16:27:43,981 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-04-03 16:27:44,313 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-04-03 16:27:44,589 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-04-03 16:27:44,589 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-03 16:27:46,199 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************

@@ -1,0 +1,180 @@
+2020-03-31 12:22:05,279 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 12:22:31,324 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:22:31,770 [TestNG-PoolService-0] INFO  log - Method - testSkip - Test Skipped: As a user I want to Login and verify TransferFund Tab
+2020-03-31 12:22:31,848 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:22:31,887 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: cucumber.api.PendingException: TODO: implement me
+	at com.cl.borrower_web.steps.TransferFundTabSteps.click_on_Signin_button(TransferFundTabSteps.java:49)
+	at ?.click on Signin button(file:src/test/resources/features/web/transferFunds/TransferFundTab.feature:13)
+
+2020-03-31 12:22:35,026 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 12:30:08,778 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 12:30:25,078 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:30:49,466 [TestNG-PoolService-0] INFO  log - Method - testSkip - Test Skipped: As a user I want to Login and verify TransferFund Tab
+2020-03-31 12:30:49,514 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:30:49,595 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: cucumber.api.PendingException: TODO: implement me
+	at com.cl.borrower_web.steps.TransferFundTabSteps.click_on_Signin_button(TransferFundTabSteps.java:49)
+	at ?.click on Signin button(file:src/test/resources/features/web/transferFunds/TransferFundTab.feature:12)
+
+2020-03-31 12:30:53,769 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 12:41:14,661 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 12:41:33,659 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:41:33,993 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 12:41:34,493 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 12:41:35,428 [TestNG-PoolService-0] ERROR log - Failure in method: TransferFundTab occurred Unable to enter HomePage Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"submit"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 4d0c1bcb74985f14f773790f5fd63a94
+*** Element info: {Using=id, value=submit}
+2020-03-31 12:41:35,440 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to enter HomePage
+2020-03-31 12:41:35,782 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I want to Login and verify TransferFund Tab
+2020-03-31 12:41:35,782 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:41:39,033 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 12:48:01,735 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 12:48:16,686 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:48:25,965 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 12:48:26,929 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 12:48:53,538 [TestNG-PoolService-0] ERROR log - Failure in method: TransferFundTab occurred Unable to Click on Signin Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"submit"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 74fd34e0a1cd661b58471dc30309bce9
+*** Element info: {Using=id, value=submit}
+2020-03-31 12:54:26,518 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 12:54:36,813 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:54:37,201 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 12:54:38,434 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 12:54:42,084 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 12:54:42,465 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 12:54:42,465 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 12:54:47,044 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 13:16:13,424 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 13:16:35,710 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:16:36,107 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 13:16:36,722 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 13:16:40,028 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 13:16:40,558 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 13:16:40,558 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:16:48,072 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 13:26:15,401 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 13:26:22,062 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:26:22,146 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 13:26:22,532 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 13:26:25,592 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 13:26:25,975 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 13:26:25,976 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:26:26,958 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 13:44:15,048 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 13:44:25,162 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:44:25,541 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 13:44:26,249 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 13:44:29,280 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 13:44:49,042 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 13:44:57,545 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 13:44:57,547 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:44:59,342 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 13:57:17,587 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 13:57:29,564 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:57:30,218 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 13:57:30,919 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 13:57:33,905 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 13:57:34,539 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 13:57:35,274 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 13:57:35,275 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 13:57:38,479 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 14:13:03,131 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 14:13:12,275 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 14:13:12,414 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 14:13:12,951 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 14:13:16,180 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 14:14:03,712 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 14:14:11,203 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 14:14:11,219 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 14:14:12,503 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 16:34:44,458 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 16:35:12,168 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 16:35:12,423 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 16:35:13,146 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 16:35:17,214 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 16:35:19,981 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 16:35:21,408 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-03-31 16:35:22,820 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-03-31 16:35:23,760 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-03-31 16:35:24,482 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-03-31 16:35:24,803 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 16:35:24,803 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 16:35:27,602 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 16:44:19,106 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 16:44:35,036 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 16:44:35,262 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 16:44:35,976 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 16:44:38,896 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 16:44:39,338 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 16:44:40,207 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-03-31 16:44:40,586 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-03-31 16:44:41,242 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-03-31 16:44:41,887 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-03-31 16:51:28,894 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 16:51:38,319 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 16:51:38,538 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 16:51:38,973 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 16:51:42,053 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 16:51:42,565 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 16:51:43,514 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-03-31 16:51:43,957 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-03-31 16:51:44,779 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-03-31 16:51:45,554 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-03-31 16:51:55,475 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-03-31 16:52:33,037 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 16:52:42,776 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 16:52:43,011 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 16:52:43,441 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 16:52:46,602 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 16:52:47,516 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 16:52:48,404 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-03-31 16:52:48,825 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-03-31 16:52:50,394 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-03-31 16:52:51,011 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-03-31 16:52:51,359 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-03-31 16:52:51,657 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 16:52:51,657 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 16:52:53,526 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 17:01:58,430 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 17:02:07,400 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 17:02:07,524 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 17:02:08,270 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 17:02:11,410 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 17:02:12,216 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 17:02:13,569 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-03-31 17:02:14,063 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-03-31 17:02:14,773 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-03-31 17:02:16,026 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-03-31 17:02:16,424 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-03-31 17:02:16,703 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 17:02:16,703 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 17:02:19,241 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-31 17:10:55,775 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-31 17:11:03,774 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 17:11:03,948 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-03-31 17:11:04,658 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-03-31 17:11:07,819 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-03-31 17:11:08,214 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-03-31 17:11:09,490 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-03-31 17:11:10,186 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-03-31 17:11:10,813 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered description
+2020-03-31 17:11:12,201 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-03-31 17:11:14,054 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-03-31 17:11:14,365 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-03-31 17:11:14,660 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-03-31 17:11:14,660 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-31 17:11:15,903 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************

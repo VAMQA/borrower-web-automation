@@ -1,0 +1,72 @@
+2020-04-09 16:16:42,909 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:17:15,050 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"CommonQuestionPageHeader":"Common Questions"}
+2020-04-09 16:17:20,109 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:17:39,768 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-09 16:17:45,409 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-09 16:17:47,171 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:17:47,174 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:17:56,607 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"MyLoanAccountNumber":"49265","HeaderNameMyLoan":"My Loan","CurrentNetPrincipalLimitText":"Current Net Principal Limit"}
+2020-04-09 16:18:01,615 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:18:18,115 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Loan Details tab
+2020-04-09 16:18:23,520 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Current Net Principal Limit text in Loan Details Tab 
+2020-04-09 16:18:24,906 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:18:24,907 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:18:32,490 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"BorrowerName":"ANITA Bortest"}
+2020-04-09 16:18:37,497 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:18:53,597 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on borrower Details tab
+2020-04-09 16:18:58,959 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified borrower details name text in borrower Details Tab 
+2020-04-09 16:19:00,023 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:19:00,024 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:19:05,454 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"Description":"Incorrect username or password."}
+2020-04-09 16:19:10,462 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:19:18,539 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-09 16:19:29,101 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-09 16:19:30,465 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:19:30,465 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:19:36,949 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"MyLoanAccountNumber":"49265","HeaderNameMyLoan":"My Loan","CurrentNetPrincipalLimitText":"Current Net Principal Limit"}
+2020-04-09 16:19:41,956 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:19:58,110 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-09 16:20:03,553 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Number
+2020-04-09 16:20:04,666 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:29:01,756 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:29:24,198 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"MyLoanAccountNumber":"49265","HeaderNameMyLoan":"My Loan","CurrentNetPrincipalLimitText":"Current Net Principal Limit"}
+2020-04-09 16:29:29,208 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:32:23,530 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:32:38,115 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"Description":"Incorrect username or password."}
+2020-04-09 16:32:43,126 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:32:59,579 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-09 16:33:10,331 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-09 16:33:12,928 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:35:06,823 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:35:15,803 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"CommonQuestionPageHeader":"Common Questions"}
+2020-04-09 16:35:20,813 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:57:38,838 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:58:09,775 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"CommonQuestionPageHeader":"Common Questions"}
+2020-04-09 16:58:14,786 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:58:37,600 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-09 16:58:42,949 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-09 16:58:46,344 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:58:46,345 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:59:03,244 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"MyLoanAccountNumber":"49265","HeaderNameMyLoan":"My Loan","CurrentNetPrincipalLimitText":"Current Net Principal Limit"}
+2020-04-09 16:59:08,251 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 16:59:24,531 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Loan Details tab
+2020-04-09 16:59:30,536 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Current Net Principal Limit text in Loan Details Tab 
+2020-04-09 16:59:31,728 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 16:59:31,738 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 16:59:40,765 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"BorrowerName":"ANITA Bortest"}
+2020-04-09 16:59:45,772 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 17:00:02,098 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on borrower Details tab
+2020-04-09 17:00:07,602 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified borrower details name text in borrower Details Tab 
+2020-04-09 17:00:08,821 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 17:00:08,822 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 17:00:19,240 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"Description":"Incorrect username or password."}
+2020-04-09 17:00:24,263 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 17:00:40,586 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-09 17:00:51,207 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-09 17:00:52,623 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-09 17:00:52,623 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-09 17:01:00,251 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"MyLoanAccountNumber":"49265","HeaderNameMyLoan":"My Loan","CurrentNetPrincipalLimitText":"Current Net Principal Limit"}
+2020-04-09 17:01:05,260 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-09 17:01:21,687 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-09 17:01:27,005 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Number
+2020-04-09 17:01:28,262 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************

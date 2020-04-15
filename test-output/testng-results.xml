@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="81274" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:16:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" class="com.cl.java_af.testbases.CucumberTestBase"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="81274" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:16:35Z">
+      <class name="com.cl.borrower_web.runners.WebTestRunner">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeTest" is-config="true" duration-ms="3" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeClass" is-config="true" duration-ms="182" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="14855" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="14081" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="13246" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="14919" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="14922" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="14212" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="beforeMethod" is-config="true" duration-ms="14459" started-at="2020-04-14T15:15:14Z" finished-at="2020-04-14T15:15:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10e41621]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cl.java_af.testbases.CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper,com.cl.java_af.cucmber.CucumberFeatureWrapper) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="27624" started-at="2020-04-14T15:15:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My loan details and borrower details verification."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="30257" started-at="2020-04-14T15:15:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My loan details and borrower details verification."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="43178" started-at="2020-04-14T15:15:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user I want to Login and upload documents in common forms page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login and Upload a form in common forms Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="29406" started-at="2020-04-14T15:15:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login to Borrower Portal."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="33825" started-at="2020-04-14T15:15:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My loan details and borrower details verification."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="25992" started-at="2020-04-14T15:15:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:15:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login to Borrower Portal."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="runScenario" duration-ms="64943" started-at="2020-04-14T15:15:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-04-14T15:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user I want to Login and validate all the questions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login and Upload a form in common forms Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="2067" started-at="2020-04-14T15:15:55Z" finished-at="2020-04-14T15:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="1786" started-at="2020-04-14T15:15:55Z" finished-at="2020-04-14T15:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="1029" started-at="2020-04-14T15:15:58Z" finished-at="2020-04-14T15:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="868" started-at="2020-04-14T15:15:59Z" finished-at="2020-04-14T15:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="2997" started-at="2020-04-14T15:16:03Z" finished-at="2020-04-14T15:16:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="835" started-at="2020-04-14T15:16:12Z" finished-at="2020-04-14T15:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterMethod" is-config="true" duration-ms="1008" started-at="2020-04-14T15:16:34Z" finished-at="2020-04-14T15:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=CucumberTestBase.runScenario(com.cl.java_af.cucmber.PickleEventWrapper, com.cl.java_af.cucmber.CucumberFeatureWrapper)[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterClass" is-config="true" duration-ms="76" started-at="2020-04-14T15:16:35Z" finished-at="2020-04-14T15:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-04-14T15:16:35Z" finished-at="2020-04-14T15:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.cl.borrower_web.runners.WebTestRunner@3b0143d3]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-04-14T15:16:35Z" finished-at="2020-04-14T15:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.cl.borrower_web.runners.WebTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

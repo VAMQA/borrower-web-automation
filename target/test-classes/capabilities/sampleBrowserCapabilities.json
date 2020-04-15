@@ -1,0 +1,134 @@
+{
+	"local": {
+	
+		"ie": {
+			"elementScrollBehavior": "top",
+			"enablePersistentHover": true,
+			"ie.forceCreateProcessApi": false,
+			"ie.forceShellWindowsApi": false,
+			"ie.ensureCleanSession": true,
+			"ie.usePerProcessProxy": false,
+			"initialBrowserUrl": "...url...",
+			"requireWindowFocus": true,
+			"ignoreProtectedModeSettings": true,
+			"nativeEvents": true,
+			"ignoreZoomSetting": false,
+			"ie.enableFullPageScreenshot": false,
+			"pageLoadStrategy": "normal",
+			"unhandledPromptBehavior": "accept"
+		},
+		
+		"chrome": {
+			"browserVersion": "65",
+			"handlesAlerts": "true",
+			"chromeOptions": {
+				"args": [
+					"--start-maximized",
+					"--headless",
+					"--disable-gpu",
+					"--no-sandbox",
+					"--incognito",
+					"--window-size=1920x1080",
+					"--disable-popup-blocking",
+					"--ignore-certificate-errors"
+				],
+				"extensions": [
+					"/path/to/extension1.crx",				//->Path(s) to crx file of the Chrome extension (CRX file)
+					"/path/to/extension2.crx"
+				],
+				"encodedExtensions": [
+					"/path/to/extension.crx"	 			//Specify a Base64 encoded string of packed Chrome extension (CRX file)
+
+				],
+				"experimentalOptions": {
+					"prefs": "prefs"
+				}
+			}
+		},
+		
+		"firefox": {
+			"acceptInsecureCerts": false,
+			"unhandledPromptBehavior": "ignore",
+			"pageLoadStrategy": "normal",
+			"marionette": false,
+			"binary": "/usr/local/firefox/bin/firefox",
+			"firefoxOptions": {
+				"args": [
+					"-headless",
+					"-profile",
+					"/path/to/my/profile"
+				],
+				"prefs": {
+					"dom.ipc.processCount": 8,
+					"javascript.options.showInConsole": false
+				},
+				"log": {
+					"level": "trace"
+				}
+			}
+		},
+		
+		"edge": {
+			"pageLoadStrategy": "normal"
+		}
+	},
+	
+	"onFutureCloud": {
+	
+		"Windows 10:Chrome latest": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "chrome",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		
+		"Windows 10:Chrome 72": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "chrome",
+			"version": "72",
+			"resolution": "1280x1024"
+		},
+		
+		"Windows 10:Firefox latest": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "firefox",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		
+		"Windows 7:Firefox 64": {
+			"platformName": "Windows",
+			"platformVersion": "7",
+			"browser": "firefox",
+			"version": "64",
+			"resolution": "1280x1024"
+		},
+		
+		"Mac EI Capitan:Firefox latest": {
+			"platformName": "OSX",
+			"platformVersion": "EI Capitan",
+			"browser": "firefox",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		
+		"Mac Mountain Lion:Safari latest": {
+			"platformName": "OSX",
+			"platformVersion": "Mountain Lion",
+			"browser": "safari",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		
+		"Windows 10:Edge 18": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "edge",
+			"version": "18",
+			"resolution": "1280x1024"
+		}
+	}
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="filename">${sys:logPath}</Property>
+	</Properties>
+	<Appenders>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern>%d{DEFAULT} [%-20.20t] %-5p %c - %m%n</Pattern>
+			</PatternLayout>
+		</Console>
+		<RollingFile name="file" fileName="${filename}/automation.log"
+			filePattern="${filename}/automation-archieve-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<Pattern>%d{DEFAULT} [%-20.20t] %-5p %c - %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy size="200 MB" />
+			</Policies>
+		</RollingFile>
+		<Routing name="Routing">
+			<Routes pattern="$${ctx:ROUTINGKEY}">
+				<Route key="special">
+					<RollingFile name="Rolling-${ctx:ROUTINGKEY}"
+						fileName="${filename}/logs/special-${ROUTINGKEY}.log"
+						filePattern="./logs/${date:yyyy-MM}/${ctx:ROUTINGKEY}-special-%d{yyyy-MM-dd}.log.gz">
+						<PatternLayout>
+							<Pattern>%d{DEFAULT} [%t] %p %c{3} - %m%n</Pattern>
+						</PatternLayout>
+						<Policies>
+							<TimeBasedTriggeringPolicy interval="1"
+								modulate="true" />
+							<SizeBasedTriggeringPolicy size="10 MB" />
+						</Policies>
+					</RollingFile>
+				</Route>
+				<Route key="$${ctx:ROUTINGKEY}">
+					<RollingFile name="Rolling-default"
+						fileName="${filename}/logs/Thread-Main.log"
+						filePattern="./logs/${date:yyyy-MM}/${ctx:ROUTINGKEY}-default-%d{yyyy-MM-dd}.log.gz">
+						<PatternLayout>
+							<Pattern>%d{DEFAULT} [%t] %p %c{3} - %m%n</Pattern>
+						</PatternLayout>
+						<Policies>
+							<TimeBasedTriggeringPolicy interval="1"
+								modulate="true" />
+							<SizeBasedTriggeringPolicy size="10 MB" />
+						</Policies>
+					</RollingFile>
+				</Route>
+				<Route key="$${ctx:ROUTINGKEY}">
+					<RollingFile name="Rolling-${ctx:ROUTINGKEY}"
+						fileName="${filename}/Thread-${ctx:ROUTINGKEY}.log"
+						filePattern="./logs/${date:yyyy-MM}/${ctx:ROUTINGKEY}-other-%d{yyyy-MM-dd}.log.gz">
+						<PatternLayout>
+							<Pattern>%d{DEFAULT} [%t] %p %c{3} - %m%n</Pattern>
+						</PatternLayout>
+						<Policies>
+							<TimeBasedTriggeringPolicy interval="1"
+								modulate="true" />
+							<SizeBasedTriggeringPolicy size="10 MB" />
+						</Policies>
+					</RollingFile>
+				</Route>
+			</Routes>
+		</Routing>
+	</Appenders>
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="Routing" />
+			<AppenderRef ref="STDOUT" />
+			<AppenderRef ref="file" />
+		</Root>
+	</Loggers>
+</Configuration>

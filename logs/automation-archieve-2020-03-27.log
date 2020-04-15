@@ -1,0 +1,18 @@
+2020-03-25 21:24:37,199 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-25 21:24:42,190 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-25 21:24:42,301 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-25 21:24:42,758 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-25 21:24:42,759 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-25 21:24:43,677 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-27 12:13:18,905 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-27 12:14:02,025 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-27 12:14:04,144 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-27 12:14:04,833 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-27 12:14:04,834 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-27 12:14:06,868 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-27 12:15:55,376 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-27 12:16:06,572 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-27 12:16:06,748 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-27 12:16:07,155 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-27 12:16:07,156 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-27 12:16:08,678 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************

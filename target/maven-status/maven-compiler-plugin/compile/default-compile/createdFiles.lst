@@ -1,0 +1,13 @@
+com\cl\borrower_web\parameters\init\XMLParametersInit.class
+com\cl\borrower_web\parameters\init\JsonParametersInit.class
+com\cl\borrower_web\testbases\BorrowerTestBase.class
+com\cl\borrower_web\actions\ObjectBase.class
+com\cl\borrower_web\pages\BorrowerPortalVerifyPage.class
+com\cl\borrower_web\utilities\BorrowerWebUtil$1.class
+com\cl\borrower_web\parameters\XMLParametersObjectList.class
+com\cl\borrower_web\pages\CommonPage.class
+com\cl\borrower_web\utilities\BorrowerWebUtil.class
+com\cl\borrower_web\utilities\GenericLibrary.class
+com\cl\borrower_web\parameters\XMLParametersObjects.class
+com\cl\borrower_web\parameters\JsonParametersObjects.class
+com\cl\borrower_web\parameters\JsonParametersObjectList.class

@@ -1,0 +1,91 @@
+{
+	"local": {
+		"ie": {
+			"ie.ensureCleanSession": true,
+			"ignoreProtectedModeSettings": true,
+			"ie.enableFullPageScreenshot": true,
+			"pageLoadStrategy": "normal",
+			"unhandledPromptBehavior": "accept",
+			"unexpectedAlertBehaviour": "accept",
+			"nativeEvents": false,
+			"disable-popup-blocking": true,
+			"enablePersistentHover": true,
+			"ignoreZoomSetting": true,
+			"requireWindowFocus": true,
+			"javascriptEnabled": true
+		},
+		"chrome": {
+			"handlesAlerts": true,
+			"chromeOptions": {
+				"args": [
+					"--start-maximized",
+					"--ignore-certificate-errors"
+				]
+			}
+		},
+		"firefox": {
+			"acceptInsecureCerts": true,
+			"unhandledPromptBehavior": "ignore",
+			"pageLoadStrategy": "normal",
+			"firefoxOptions": {
+				"log": {
+					"level": "info"
+				}
+			}
+		},
+		"edge": {
+			"pageLoadStrategy": "normal"
+		}
+	},
+	"onFutureCloud": {
+		"Windows 10:Chrome latest": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "chrome",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		"Windows 10:Chrome 72": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "chrome",
+			"version": "72",
+			"resolution": "1280x1024"
+		},
+		"Windows 10:Firefox latest": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "firefox",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		"Windows 7:Firefox 64": {
+			"platformName": "Windows",
+			"platformVersion": "7",
+			"browser": "firefox",
+			"version": "64",
+			"resolution": "1280x1024"
+		},
+		"Mac EI Capitan:Firefox latest": {
+			"platformName": "OSX",
+			"platformVersion": "EI Capitan",
+			"browser": "firefox",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		"Mac Mountain Lion:Safari latest": {
+			"platformName": "OSX",
+			"platformVersion": "Mountain Lion",
+			"browser": "safari",
+			"version": "latest",
+			"resolution": "1280x1024"
+		},
+		"Windows 10:Edge 18": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browser": "edge",
+			"version": "18",
+			"resolution": "1280x1024"
+		}
+	}
+}

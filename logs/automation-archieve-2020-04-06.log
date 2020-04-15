@@ -1,0 +1,787 @@
+2020-04-06 12:58:19,593 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 12:58:57,931 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 12:58:58,741 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 12:59:02,716 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 12:59:03,238 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-04-06 12:59:03,238 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 12:59:06,259 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 12:59:06,760 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 12:59:14,260 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 12:59:14,261 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 12:59:14,261 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 12:59:14,262 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 12:59:15,399 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 12:59:15,400 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 12:59:22,510 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 12:59:22,519 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 12:59:25,544 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 12:59:28,029 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 12:59:28,478 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 12:59:30,541 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 12:59:30,541 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 12:59:32,307 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 12:59:32,308 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 12:59:39,976 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 12:59:39,989 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 12:59:42,842 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 12:59:44,829 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 12:59:45,199 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 12:59:46,503 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 12:59:46,505 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 12:59:47,545 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 12:59:47,545 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 12:59:55,045 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 12:59:55,045 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 12:59:55,046 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 12:59:55,046 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 12:59:55,811 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 12:59:55,812 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:00:00,554 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:00:00,583 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 13:00:00,688 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 13:00:01,056 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 13:00:04,068 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 13:00:04,463 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-04-06 13:00:05,304 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-04-06 13:00:05,668 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-04-06 13:00:06,160 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered description
+2020-04-06 13:00:07,040 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-04-06 13:00:07,698 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-04-06 13:00:08,048 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-04-06 13:00:08,350 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-04-06 13:00:08,351 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:00:09,593 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:02:41,866 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:02:48,098 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 13:02:48,189 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:02:51,310 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:02:51,656 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-04-06 13:02:51,656 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 13:02:52,653 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:02:52,693 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:02:57,085 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:02:57,086 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 13:02:57,087 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:02:57,088 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:02:57,866 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:02:57,866 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:03:02,220 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:03:02,231 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:03:05,178 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:03:07,008 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 13:03:07,384 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 13:03:08,687 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 13:03:08,688 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:03:10,086 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:03:10,087 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:03:15,333 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:03:15,343 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:03:18,390 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:03:20,282 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 13:03:20,623 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 13:03:21,922 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 13:03:21,923 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:03:22,765 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:03:22,766 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:03:30,119 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:03:30,122 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 13:03:30,217 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 13:03:30,603 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 13:03:33,447 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 13:03:33,830 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-04-06 13:03:34,699 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-04-06 13:03:35,078 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-04-06 13:03:35,597 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered description
+2020-04-06 13:03:36,236 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-04-06 13:03:36,892 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-04-06 13:03:37,250 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-04-06 13:03:37,571 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-04-06 13:03:37,571 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:03:39,185 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:11:49,737 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:12:17,186 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:12:18,871 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:12:18,873 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:12:24,813 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:12:25,642 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:12:25,643 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:12:32,160 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:12:33,001 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:12:33,002 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:12:40,367 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:12:41,175 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:15:14,942 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:15:23,393 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:15:24,571 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:15:24,572 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:15:28,991 [TestNG-PoolService-0] ERROR log - Failure in method: BeforeMethod occurred There was a configuration issue. Exception: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: efe64c7e0985364b10cfcb6bae236a4f
+2020-04-06 13:18:34,300 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:18:47,494 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 13:18:47,626 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:18:51,406 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:18:51,802 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-04-06 13:18:51,803 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 13:18:53,779 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:18:54,051 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:19:01,348 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:19:01,364 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:19:04,171 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:19:06,732 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 13:19:16,221 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 13:19:18,649 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 13:19:18,650 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:19:19,587 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:19:19,588 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:19:29,231 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:19:29,241 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:19:32,141 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:19:34,479 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 13:19:34,819 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 13:19:36,203 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 13:19:36,204 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:19:37,023 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:19:37,023 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:19:42,757 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:19:42,788 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 13:19:42,892 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 13:19:43,256 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 13:19:45,993 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 13:19:46,452 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-04-06 13:19:47,262 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-04-06 13:19:47,616 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-04-06 13:19:48,117 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered description
+2020-04-06 13:19:48,835 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-04-06 13:19:49,452 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-04-06 13:19:49,780 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-04-06 13:19:50,066 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-04-06 13:19:50,066 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:19:51,844 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:20:40,134 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:20:48,206 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 13:20:48,237 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:20:51,543 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:20:51,862 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-04-06 13:20:51,862 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-04-06 13:20:52,926 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:20:52,947 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:20:59,268 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:20:59,280 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:21:02,091 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:21:03,840 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 13:21:04,185 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 13:21:05,292 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 13:21:05,294 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:21:06,117 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:21:06,118 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:21:12,570 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:21:12,577 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:21:15,387 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the user get success
+2020-04-06 13:21:17,558 [TestNG-PoolService-0] INFO  log - Method - reportPass - Click on the PayBills in Account summary Page
+2020-04-06 13:21:17,899 [TestNG-PoolService-0] INFO  log - Method - reportPass - validation for the PayBill get success
+2020-04-06 13:21:19,243 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: Successfully transfer funds from one account to another account
+2020-04-06 13:21:19,244 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: Successfully transfer funds from one account to another account *****************
+2020-04-06 13:21:20,113 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:21:20,114 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:21:26,477 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:21:26,500 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 13:21:26,592 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 13:21:26,980 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 13:21:29,732 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 13:21:30,093 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Summary tab text
+2020-04-06 13:21:30,901 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on TransferFundsTab
+2020-04-06 13:21:31,256 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered Amount
+2020-04-06 13:21:31,703 [TestNG-PoolService-0] INFO  log - Method - reportPass - Entered description
+2020-04-06 13:21:32,364 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Continue Button
+2020-04-06 13:21:32,992 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Submit Button
+2020-04-06 13:21:33,300 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Transfer Success message
+2020-04-06 13:21:33,579 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I want to Login and verify TransferFund Tab
+2020-04-06 13:21:33,579 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:21:34,374 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:38:55,369 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:39:11,331 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:39:11,475 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:39:12,138 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 13:39:12,139 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:39:12,140 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:39:13,441 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:39:13,442 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:39:19,845 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:39:19,975 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 13:39:20,161 [TestNG-PoolService-0] ERROR log - Failure in method: TransferFundTab occurred Unable to enter username Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"user_login"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: e7e71972a25cf2df7859a15703d84f9e
+*** Element info: {Using=name, value=user_login}
+2020-04-06 13:39:20,162 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to enter username
+2020-04-06 13:39:20,680 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I want to Login and verify TransferFund Tab
+2020-04-06 13:39:20,681 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 13:39:21,944 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:42:27,720 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:42:35,107 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:42:35,119 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:42:35,749 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 13:42:35,750 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:42:35,751 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 13:42:36,945 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:44:08,530 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:44:17,942 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:44:17,955 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:44:18,532 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 13:44:18,534 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:44:19,580 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:49:50,717 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:50:08,182 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:50:08,441 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:50:09,426 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 13:50:10,056 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 13:50:10,912 [TestNG-PoolService-0] ERROR log - Failure in method: TransferFundTab occurred Unable to Click on Signin Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"submit"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: cbccc6a16dd419ae167ae09471bdee7e
+*** Element info: {Using=name, value=submit}
+2020-04-06 13:50:10,913 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to Click on Signin Page
+2020-04-06 13:50:11,412 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 13:50:11,412 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:50:13,770 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 13:56:26,231 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 13:56:44,626 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:56:44,998 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 13:56:46,098 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 13:56:46,725 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 13:56:47,447 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 13:56:48,003 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 13:56:48,003 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 13:56:49,691 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 14:07:25,339 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 14:07:35,577 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 14:07:35,711 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 14:07:36,580 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 14:07:37,256 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 14:07:38,143 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 14:07:38,739 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 14:07:38,741 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 14:07:38,742 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 14:07:41,574 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 14:09:08,225 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:18:58,235 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:19:18,780 [TestNG-PoolService-0] ERROR log - Failure in method: BeforeMethod occurred There was a configuration issue. Exception: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: ChromeDriver
+2020-04-06 15:19:19,027 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 15:19:55,829 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:20:19,056 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:20:19,703 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 15:20:21,100 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 15:20:21,835 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 15:20:22,749 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 15:20:23,407 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 15:20:23,407 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:20:23,409 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-04-06 15:20:28,735 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 15:22:03,486 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:22:21,371 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:22:21,597 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 15:22:23,140 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 15:22:23,789 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 15:22:24,588 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 15:27:07,669 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:27:22,938 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:27:23,066 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 15:27:24,150 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 15:27:24,877 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 15:27:25,634 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 15:27:40,349 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 15:27:40,989 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 15:27:40,989 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:27:42,455 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 15:28:03,067 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:28:14,704 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:28:14,731 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 15:28:15,531 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 15:28:16,123 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 15:28:16,831 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 15:28:17,374 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 15:28:17,882 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 15:28:17,882 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:28:18,944 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 15:30:45,171 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:30:54,517 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:30:54,539 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 15:30:55,294 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 15:30:56,075 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 15:30:56,802 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 15:31:00,073 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 15:31:01,036 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 15:31:01,037 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:31:02,230 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 15:57:45,161 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 15:58:03,615 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:58:03,932 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 15:58:05,035 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 15:58:05,665 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 15:58:06,423 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 15:58:09,486 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 15:58:09,994 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 15:58:09,994 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 15:58:12,490 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:29:09,318 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:29:27,449 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:29:27,785 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:29:28,700 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:29:31,859 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:29:32,594 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 16:29:35,913 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: b86d6b45031156f09623adff6b2227b8
+*** Element info: {Using=id, value=title}
+2020-04-06 16:29:35,914 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 16:29:36,418 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 16:29:36,418 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:29:37,893 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:29:38,035 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:29:46,512 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 16:29:46,570 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 16:29:46,618 [TestNG-PoolService-0] ERROR log - Failure in method: TransferFundTab occurred Unable to enter username Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"user_login"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 50cbc962fb02e822491d2a13b53cf1f5
+*** Element info: {Using=name, value=user_login}
+2020-04-06 16:29:46,619 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to enter username
+2020-04-06 16:29:47,131 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I want to Login and verify TransferFund Tab
+2020-04-06 16:29:47,131 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 16:29:48,730 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:31:10,317 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:31:20,304 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:31:20,327 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:31:21,145 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:31:24,314 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:31:25,113 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 16:31:28,184 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 3a3582f1ab1029b82e6f12b4565acfd4
+*** Element info: {Using=id, value=title}
+2020-04-06 16:31:28,185 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 16:31:28,731 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 16:31:28,731 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:31:29,852 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:31:29,882 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:31:55,784 [TestNG-PoolService-0] ERROR log - Failure in method: waitForPageReadyState occurred FAIL: Java script load not found. Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.cl.java_af.engine.Waits$$Lambda$211/236753354@9afddd2 (tried for 20 second(s) with 500 milliseconds interval)
+2020-04-06 16:31:57,793 [TestNG-PoolService-0] ERROR log - Failure in method: BeforeMethod occurred There was a configuration issue. Exception: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 146f57d945104a4ba999a8da68a2685a
+2020-04-06 16:31:58,487 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:32:54,331 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:33:06,510 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:33:06,879 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:33:07,871 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:33:11,037 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:34:11,268 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 16:36:42,344 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:36:59,757 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:37:00,065 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:37:01,831 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:37:04,980 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:37:08,208 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 16:37:11,880 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: b5ccc5b8d64dff2d440eaced7b23fedb
+*** Element info: {Using=id, value=title}
+2020-04-06 16:37:11,881 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 16:37:12,514 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 16:37:12,515 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:37:15,511 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:37:15,577 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:37:24,158 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 16:37:24,411 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: TransferFundTabData.json : {"Description":"Selected Default From and To Accounts","Amount":"100"}
+2020-04-06 16:37:24,492 [TestNG-PoolService-0] ERROR log - Failure in method: TransferFundTab occurred Unable to enter username Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"user_login"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 3d0e90ef0947eb6cd211ba3399566827
+*** Element info: {Using=name, value=user_login}
+2020-04-06 16:37:24,493 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to enter username
+2020-04-06 16:37:24,982 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I want to Login and verify TransferFund Tab
+2020-04-06 16:37:24,983 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-04-06 16:37:25,897 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:48:52,379 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:49:00,751 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 16:49:03,275 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:49:06,649 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:49:09,823 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:49:13,061 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 16:49:16,129 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 16:49:16,643 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 16:49:16,644 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 16:49:17,869 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:54:27,724 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:54:43,444 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:54:46,066 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:54:49,521 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:54:52,688 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:54:55,978 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 16:54:59,123 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 4748ea4bf37bcd18705aad8387621c4f
+*** Element info: {Using=id, value=title}
+2020-04-06 16:54:59,129 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 16:54:59,639 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 16:54:59,639 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:55:01,196 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 16:56:36,055 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 16:56:50,337 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 16:56:53,068 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 16:56:56,356 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 16:56:59,518 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 16:57:26,537 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:13:32,786 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:13:51,708 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:13:54,464 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:13:58,488 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:14:01,665 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:14:04,901 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:14:08,135 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:14:11,276 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-06 17:14:11,556 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login to celink and verify common question page title
+2020-04-06 17:14:11,557 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:14:13,480 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:17:15,808 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:17:25,499 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:17:28,077 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:17:31,360 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:17:34,521 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:17:37,796 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:17:43,011 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 17:17:45,924 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-06 17:17:46,184 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login to celink and verify common question page title
+2020-04-06 17:17:46,184 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:17:47,625 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:18:59,988 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:19:13,819 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:19:16,533 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:19:19,786 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:19:23,008 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:19:34,403 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:19:39,210 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 17:20:49,254 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:21:06,026 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:21:08,659 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:21:11,940 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:21:15,166 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:21:18,465 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:21:23,254 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 17:22:33,409 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-06 17:25:40,879 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:25:53,678 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:25:56,300 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:25:59,659 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:26:02,875 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:26:06,148 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:26:11,498 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 17:26:30,060 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify Common Questions text
+2020-04-06 17:26:44,344 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login to celink and verify common question page title
+2020-04-06 17:26:44,345 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:26:47,868 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:27:40,628 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:27:51,715 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:27:54,253 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:27:57,671 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:28:00,860 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:28:04,115 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:28:08,928 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 17:28:11,771 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-06 17:28:12,086 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login to celink and verify common question page title
+2020-04-06 17:28:12,086 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 17:28:15,887 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:29:32,849 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:29:42,884 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:29:45,447 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:29:48,695 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:29:51,887 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:29:55,221 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:29:58,371 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: 18e0774f09c18f847de93c812514d333
+*** Element info: {Using=id, value=title}
+2020-04-06 17:29:58,388 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 17:29:58,895 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 17:29:58,895 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:30:00,125 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:32:03,117 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:32:11,468 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:32:14,048 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:32:17,369 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:32:20,554 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:32:33,532 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:33:49,525 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-06 17:34:52,862 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:35:00,824 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:35:03,364 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:35:06,616 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:35:09,840 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:35:13,106 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:35:28,623 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-06 17:36:15,816 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:36:32,935 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:36:35,922 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:36:39,217 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:36:42,367 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:36:45,647 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:36:49,080 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: dae053340cab0bf825e390687e07b254
+*** Element info: {Using=id, value=title}
+2020-04-06 17:36:49,092 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 17:36:49,612 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 17:36:49,612 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:36:55,826 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:38:10,395 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:38:18,312 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:38:20,860 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:38:24,156 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:38:27,378 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:38:30,645 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:38:33,741 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: d967ff9f2a69c6388afa8eb40d2d7950
+*** Element info: {Using=id, value=title}
+2020-04-06 17:38:33,745 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 17:38:34,257 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 17:38:34,257 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:38:35,338 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:39:26,750 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:39:34,799 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:39:37,320 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:39:40,617 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:39:43,770 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:39:47,052 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:39:52,649 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: a9ec83c359fd0531cae694006d90e998
+*** Element info: {Using=id, value=title}
+2020-04-06 17:39:52,651 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 17:39:52,947 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 17:39:52,947 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:39:54,013 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:40:11,916 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:40:20,649 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:40:23,180 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:40:26,450 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:40:29,596 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:40:32,840 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:40:38,421 [TestNG-PoolService-0] ERROR log - Failure in method: BorrowerPortalVerify occurred Unable to verify Home Page Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"title"}
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VMT3441', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SATISH~2\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}
+Session ID: dfedd70ce821013a2d5e6199ae3ae85c
+*** Element info: {Using=id, value=title}
+2020-04-06 17:40:38,421 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify My Loan text
+2020-04-06 17:40:38,724 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 17:40:38,725 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:40:39,919 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 17:41:17,575 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 17:41:27,934 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:41:30,480 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 17:41:33,697 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 17:41:36,844 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 17:41:40,092 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 17:41:50,658 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-06 17:41:53,475 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Number
+2020-04-06 17:41:53,754 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 17:41:53,754 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 17:41:54,831 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:26:24,146 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:26:46,766 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 18:26:49,451 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:26:53,323 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:26:56,476 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:26:59,746 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:27:10,841 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 18:27:11,404 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 18:27:11,404 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 18:27:12,728 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:27:12,788 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:27:19,419 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 18:27:21,955 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:27:25,448 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:27:28,619 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:27:31,917 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:27:45,502 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-06 18:27:48,330 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Number
+2020-04-06 18:27:48,646 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 18:27:48,646 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 18:27:49,630 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:27:49,631 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:27:57,764 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 18:28:00,285 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:28:03,478 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:28:06,607 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:28:09,866 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:28:22,846 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 18:28:25,701 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify Common Questions text
+2020-04-06 18:28:25,999 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login to celink and verify common question page title
+2020-04-06 18:28:26,000 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 18:28:27,019 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:31:56,221 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:32:05,561 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 18:32:08,178 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:32:11,494 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:32:14,634 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:32:17,936 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:32:29,035 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 18:32:29,590 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 18:32:29,590 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 18:32:30,860 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:32:30,934 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:32:38,837 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 18:32:41,365 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:32:44,571 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:32:47,692 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:32:50,968 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:33:04,577 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-06 18:33:07,429 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Number
+2020-04-06 18:33:07,714 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 18:33:07,714 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 18:33:08,731 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:33:08,738 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:33:15,205 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 18:33:17,733 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:33:21,037 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:33:24,181 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:33:27,426 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:33:40,590 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 18:33:43,433 [TestNG-PoolService-0] INFO  log - Method - reportHardFail - Unable to verify Common Questions text
+2020-04-06 18:33:43,729 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I Login to celink and verify common question page title
+2020-04-06 18:33:43,730 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 18:33:44,702 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:35:01,341 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:35:10,925 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 18:35:13,527 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:35:16,816 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:35:19,999 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:35:23,258 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:35:34,355 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Incorrect username or password text
+2020-04-06 18:35:34,855 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with invalid password and should get Incorrect username or password massage display
+2020-04-06 18:35:34,855 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with invalid password and should get Incorrect username or password massage display *****************
+2020-04-06 18:35:36,340 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:35:36,430 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:35:42,936 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 18:35:45,466 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:35:48,632 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:35:51,775 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:35:55,088 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:36:08,666 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified My Loan text
+2020-04-06 18:36:11,502 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Account Number
+2020-04-06 18:36:11,823 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login with valid email and password and should signin and able to view My Loan heder name
+2020-04-06 18:36:11,824 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login with valid email and password and should signin and able to view My Loan heder name *****************
+2020-04-06 18:36:12,940 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-06 18:36:12,941 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-06 18:36:38,881 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 18:36:41,409 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-06 18:36:44,614 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered Username
+2020-04-06 18:36:47,753 [TestNG-PoolService-0] INFO  log - Method - reportPass - Extered password
+2020-04-06 18:36:51,015 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on Signin Page
+2020-04-06 18:37:03,533 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-06 18:37:06,377 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-06 18:37:06,661 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I Login to celink and verify common question page title
+2020-04-06 18:37:06,661 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I Login to celink and verify common question page title *****************
+2020-04-06 18:37:07,561 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************

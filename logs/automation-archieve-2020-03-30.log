@@ -1,0 +1,93 @@
+2020-03-30 15:00:55,154 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 15:01:56,793 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 15:01:59,542 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 15:02:01,197 [TestNG-PoolService-0] INFO  log - Method - testFail - Test Failed in: As a user I logged into ZeroBank
+2020-03-30 15:02:01,208 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 15:02:01,210 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: There are undefined steps
+2020-03-30 15:02:06,864 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 16:22:38,611 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 16:22:54,778 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:22:55,073 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 16:22:55,635 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 16:22:55,637 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:22:56,930 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 16:34:48,555 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 16:35:00,155 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:35:00,373 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 16:35:00,929 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 16:35:00,930 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:35:02,115 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 16:37:44,368 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 16:37:50,833 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:37:50,865 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 16:37:51,155 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 16:37:51,156 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:37:52,289 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 16:40:11,980 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 16:40:18,612 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:40:18,640 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 16:40:18,934 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 16:40:18,935 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 16:40:19,932 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 16:50:19,130 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 16:50:37,684 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:25:20,706 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 17:25:31,181 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:25:31,253 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 17:25:31,633 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 17:25:31,635 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:25:32,851 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 17:25:32,909 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 17:25:39,903 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 17:25:39,906 [TestNG-PoolService-0] INFO  log - Method - testSkip - Test Skipped: As a user I want to Login and verify TransferFund Tab
+2020-03-30 17:25:39,906 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 17:25:40,022 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: cucumber.api.PendingException: TODO: implement me
+	at com.cl.borrower_web.steps.TransferFundTabSteps.navagate_to_ZerBank(TransferFundTabSteps.java:25)
+	at ?.navagate to ZerBank(file:src/test/resources/features/web/transferFunds/TransferFundTab.feature:10)
+
+2020-03-30 17:25:40,830 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 17:27:23,284 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 17:27:30,787 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:27:30,815 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 17:27:31,135 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 17:27:31,136 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:27:32,231 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 17:42:23,514 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 17:42:40,584 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:42:40,860 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 17:42:41,446 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 17:42:41,447 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:42:42,864 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 17:44:38,029 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 17:44:48,027 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:44:48,058 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-03-30 17:44:48,353 [TestNG-PoolService-0] INFO  log - Method - testPass - Test Passed: As a user I logged into ZeroBank
+2020-03-30 17:44:48,355 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I logged into ZeroBank *****************
+2020-03-30 17:44:49,451 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 18:37:14,684 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 18:37:32,512 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 18:37:32,642 [TestNG-PoolService-0] INFO  log - Method - testSkip - Test Skipped: As a user I want to Login and verify TransferFund Tab
+2020-03-30 18:37:32,680 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 18:37:32,685 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: cucumber.api.PendingException: TODO: implement me
+	at com.cl.borrower_web.steps.TransferFundTabSteps.navagate_to_ZerBank(TransferFundTabSteps.java:28)
+	at ?.navagate to ZerBank(file:src/test/resources/features/web/transferFunds/TransferFundTab.feature:10)
+
+2020-03-30 18:37:34,376 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 18:43:46,317 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 18:44:04,860 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 18:44:05,381 [TestNG-PoolService-0] INFO  log - Method - testSkip - Test Skipped: As a user I want to Login and verify TransferFund Tab
+2020-03-30 18:44:05,398 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 18:44:05,445 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: cucumber.api.PendingException: TODO: implement me
+	at com.cl.borrower_web.steps.TransferFundTabSteps.click_on_Signin_button(TransferFundTabSteps.java:48)
+	at ?.click on Signin button(file:src/test/resources/features/web/transferFunds/TransferFundTab.feature:13)
+
+2020-03-30 18:44:07,045 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-03-30 18:50:21,100 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-03-30 18:50:31,900 [TestNG-PoolService-0] INFO  log - ***************** Starting Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 18:50:32,744 [TestNG-PoolService-0] INFO  log - Method - testSkip - Test Skipped: As a user I want to Login and verify TransferFund Tab
+2020-03-30 18:50:32,752 [TestNG-PoolService-0] INFO  log - ***************** End of Scenario: As a user I want to Login and verify TransferFund Tab *****************
+2020-03-30 18:50:32,755 [TestNG-PoolService-0] ERROR log - Failure in method: runScenario occurred There was an issue with the test run. Exception: org.testng.SkipException: cucumber.api.PendingException: TODO: implement me
+	at com.cl.borrower_web.steps.TransferFundTabSteps.click_on_Signin_button(TransferFundTabSteps.java:49)
+	at ?.click on Signin button(file:src/test/resources/features/web/transferFunds/TransferFundTab.feature:13)
+
+2020-03-30 18:50:33,974 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
