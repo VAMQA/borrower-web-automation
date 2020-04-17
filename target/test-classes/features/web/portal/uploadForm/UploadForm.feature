@@ -1,12 +1,12 @@
 #Author: Nagasrinivas
 #Date:
 #Modified By:
-@Demo
+@portal
 Feature: Login and Upload a form in common forms Page
 
   #Test Scenario-4 : Upload a form in Common forms page
   #TestcasName - TC5_Upload Form
-  @Demo
+  @portal
   Scenario: As a user I want to Login and upload documents in common forms page
     Given I load testdata from: "BorrowerPortalVerifyData.json", "CommonFormsPage"
     Given As a user I logged into borrower portal

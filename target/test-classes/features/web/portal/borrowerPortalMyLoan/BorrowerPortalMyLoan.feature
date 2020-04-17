@@ -1,9 +1,9 @@
-@Login
+@portal
 Feature: My loan details and borrower details verification.
 
   #Test Scenario-3 : Verify Common question page title
   #TestcasName     : Demo Test Case -3
-  @Demo
+  @portal
   Scenario: 
     As a user I Login to celink and verify common question page title
 
@@ -15,7 +15,7 @@ Feature: My loan details and borrower details verification.
 
   #Test Scenario-4 : Validate clicking on button "View Loan Details" takes to My Loan - Loan Details
   #TestcasName     : Demo Test Case -4
-  @Demo
+  @portal
   Scenario: 
     As a user I Login to celink and navigated to View Loan Details and verified Current Net Principal Limit text
 
@@ -27,7 +27,7 @@ Feature: My loan details and borrower details verification.
 
   #Test Scenario-5 : Verify borrower information fields and data for errors
   #TestcasName     : Demo Test Case -4
-  @Demo
+  @portal
   Scenario: 
     As a user I Login to celink and navigated to borrower details and verified name
 
