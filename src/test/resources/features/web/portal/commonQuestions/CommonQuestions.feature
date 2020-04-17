@@ -1,12 +1,12 @@
 #Author: NagaSrinivas
 #Date:
 #Modified By:
-@Login
+@portal
 Feature: Login and Upload a form in common forms Page
 
   #Test Scenario-3 : Verify the all common questions
   #TestcasName - TC5_Upload Form
-  @Demo
+  @portal
   Scenario: As a user I want to Login and validate all the questions
     Given I load testdata from: "BorrowerPortalVerifyData.json", "CommonQuestionsBasedOnHeadings"
     Given As a user I logged into borrower portal

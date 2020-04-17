@@ -1,9 +1,9 @@
-package com.cl.borrower_web.steps;
+package com.cl.borrower_web.steps.portal;
 
 import java.util.Map;
 
 import com.cl.borrower_web.actions.ObjectBase;
-import com.cl.borrower_web.pages.CommonPage;
+import com.cl.borrower_web.pages.portal.CommonPage;
 import com.cl.java_af.setup.Enums.LoggingLevel;
 import com.cl.java_af.utilities.LogUtility;
 import com.cl.borrower_web.testbases.BorrowerTestBase;

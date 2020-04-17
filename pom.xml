@@ -13,7 +13,7 @@
 		<propertiesFile>${testEnvironment}Setup</propertiesFile>
 		<dataproviderthreadcount>2</dataproviderthreadcount>
 		<reuseForks>false</reuseForks>
-		<suiteFile>DemoTestCases.xml</suiteFile>
+		<suiteFile>PortalTestCases.xml</suiteFile>
 		<browser>chrome</browser>
 		<device>iPhone 7</device>
 	</properties>

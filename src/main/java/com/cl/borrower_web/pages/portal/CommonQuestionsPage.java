@@ -1,4 +1,4 @@
-package com.cl.borrower_web.pages;
+package com.cl.borrower_web.pages.portal;
 
 import java.util.ArrayList;
 import java.util.List;
