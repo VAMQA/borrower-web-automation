@@ -1,9 +1,9 @@
-@portal
+@admin
 Feature: User Login to Borrower Portal.
 
   #  Test Scenario-1 : Login with Invalid Password
   #  TestcasName     : Demo Test Case -1
-  @portal
+  @admin
   Scenario: 
     As a user I Login with invalid password and should get Incorrect username or password massage display
 
@@ -14,7 +14,7 @@ Feature: User Login to Borrower Portal.
 
   #Test Scenario-2 : Verify landing page on successful login
   #TestcasName     : Demo Test Case -2
-  @portal
+  @admin
   Scenario: 
     As a user I Login with valid email and password and should signin and able to view My Loan heder name
 
