@@ -44,11 +44,11 @@ import java.util.List;
 import java.util.Map;
 
 import com.cl.borrower_web.actions.ObjectBase;
-import com.cl.borrower_web.pages.CommonFormsPage;
-import com.cl.borrower_web.pages.CommonPage;
-import com.cl.borrower_web.pages.FormUploadPage;
-import com.cl.borrower_web.pages.LoginPage;
-import com.cl.borrower_web.pages.MyLoanPage;
+import com.cl.borrower_web.pages.portal.CommonFormsPage;
+import com.cl.borrower_web.pages.portal.CommonPage;
+import com.cl.borrower_web.pages.portal.FormUploadPage;
+import com.cl.borrower_web.pages.portal.LoginPage;
+import com.cl.borrower_web.pages.portal.MyLoanPage;
 import com.cl.borrower_web.testbases.BorrowerTestBase;
 import com.cl.java_af.setup.Enums.LoggingLevel;
 import com.cl.java_af.utilities.LogUtility;

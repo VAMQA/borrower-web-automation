@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Tests on chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 14 13:56:58 UTC 2020</td>
+<td>Started on:</td><td>Fri Apr 17 13:49:51 UTC 2020</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10342 ms)</td>
+<tr><td>Total time:</td><td>285 seconds (285291 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,38 +76,59 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As a user I want to Login and upload documents in common forms page", "Login and Upload a form in common forms Page"</td>
-<td><div><pre>org.testng.SkipException: There are undefined steps
-	at com.cl.java_af.cucmber.TestCaseResultListener.getError(TestCaseResultListener.java:59)
-	at com.cl.java_af.cucmber.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:82)
-	at com.cl.java_af.testbases.CucumberTestBase.runScenario(CucumberTestBase.java:170)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace577030819", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace577030819'><pre>org.testng.SkipException: There are undefined steps
-	at com.cl.java_af.cucmber.TestCaseResultListener.getError(TestCaseResultListener.java:59)
-	at com.cl.java_af.cucmber.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:82)
-	at com.cl.java_af.testbases.CucumberTestBase.runScenario(CucumberTestBase.java:170)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+<td><div><pre>java.lang.AssertionError: null
+	at com.cl.java_af.reporting.ReportLibrary.reportHardFail(ReportLibrary.java:262)
+	at com.cl.borrower_web.actions.ObjectBase.reportHardFail(ObjectBase.java:109)
+	at com.cl.borrower_web.steps.portal.UploadFormSteps.user_should_be_able_to_see_the_text_as_Electronic_Fund_Transfer_Direct_Deposit_Form_pdf(UploadFormSteps.java:154)
+	at ?.User should be able to see the text as Electronic_Fund_Transfer_Direct_Deposit_Form.pdf(file:src/test/resources/features/web/portal/uploadForm/UploadForm.feature:19)
+... Removed 2 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace212314700", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace212314700'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.cl.java_af.reporting.ReportLibrary.reportHardFail(ReportLibrary.java:262)
+	at com.cl.borrower_web.actions.ObjectBase.reportHardFail(ObjectBase.java:109)
+	at com.cl.borrower_web.steps.portal.UploadFormSteps.user_should_be_able_to_see_the_text_as_Electronic_Fund_Transfer_Direct_Deposit_Form_pdf(UploadFormSteps.java:154)
+	at ?.User should be able to see the text as Electronic_Fund_Transfer_Direct_Deposit_Form.pdf(file:src/test/resources/features/web/portal/uploadForm/UploadForm.feature:19)
 </pre></div></td>
-<td>0</td>
+<td>37</td>
+<td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "My loan details and borrower details verification."</td>
+<td></td>
+<td>28</td>
+<td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
+<tr>
+<td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "My loan details and borrower details verification."</td>
+<td></td>
+<td>26</td>
+<td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
+<tr>
+<td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "My loan details and borrower details verification."</td>
+<td></td>
+<td>26</td>
+<td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
+<tr>
+<td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As a user I want to Login and validate all the questions", "Login and Upload a form in common forms Page"</td>
+<td></td>
+<td>61</td>
+<td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
+<tr>
+<td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "User Login to Borrower Portal."</td>
+<td></td>
+<td>21</td>
+<td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
+<tr>
+<td title='com.cl.borrower_web.runners.WebTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cl.borrower_web.runners.WebTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "User Login to Borrower Portal."</td>
+<td></td>
+<td>26</td>
 <td>com.cl.borrower_web.runners.WebTestRunner@4b4523f8</td></tr>
 </table><p>
 </body>

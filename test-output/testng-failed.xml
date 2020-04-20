@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="25" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests" data-provider-thread-count="1">
+  <test thread-count="25" name="Tests on chrome(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="tags" value="@portal"/>
     <classes>
       <class name="com.cl.borrower_web.runners.WebTestRunner">
         <methods>
@@ -9,7 +11,7 @@
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="6"/>
           <include name="afterSuite"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
@@ -17,5 +19,5 @@
         </methods>
       </class> <!-- com.cl.borrower_web.runners.WebTestRunner -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Tests on chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
