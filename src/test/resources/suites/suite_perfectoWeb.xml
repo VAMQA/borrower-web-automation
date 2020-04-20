@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="100" data-provider-thread-count="1">
+
+	<test thread-count="5" name="Windows 10:Chrome 81" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 81"></parameter>
+		<parameter name="tags" value="@Demo1"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<!-- 
+	<test thread-count="5" name="Windows 10:Chrome 70" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 70"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	
+	<test thread-count="5" name="Windows 10:Edge 18" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge 18"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+
+	<test thread-count="5" name="Windows 10:Chrome 75 @30156" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 75"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	
+	<test thread-count="5" name="Windows 10:Chrome 70 @30156" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 70"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	
+	<test thread-count="5" name="Windows 10:Edge 18 @30156" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge 18"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 10:Edge 14" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge 14"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 10:Firefox 67" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Firefox 67"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 10:Firefox 62" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Firefox 62"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 10:IE 11" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:IE 11"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 8.1:Chrome 75" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome 75"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 8.1:Chrome 73" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome 73"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 8.1:Chrome 71" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome 71"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 8.1:Firefox 67" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Firefox 67"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 8.1:Firefox 65" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Firefox 65"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 8.1:IE 11" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:IE 11"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 7:Chrome 71" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 7:Chrome 71"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 7:Firefox 64" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 7:Firefox 64"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 7:IE 11" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 7:IE 11"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+		<test thread-count="5" name="Windows 7:Chrome 71 @30156" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 7:Chrome 71"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 7:Firefox 64 @30156" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 7:Firefox 64"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Windows 7:IE 11 @30156" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 7:IE 11"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Mac Mojave :Chrome 74" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Mojave :Chrome 74"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Mac Mojave :Firefox 66" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Mojave :Firefox 66"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	
+	<test thread-count="5" name="Mac Mojave :Safari 12" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mojave :Safari 12"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>	
+	 -->
+</suite> 

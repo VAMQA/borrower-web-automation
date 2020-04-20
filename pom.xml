@@ -9,13 +9,17 @@
 	<name>borrower-web-automation</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.af.version>1.0</java.af.version>
+		<java.af.version>1.1</java.af.version>
 		<propertiesFile>${testEnvironment}Setup</propertiesFile>
 		<dataproviderthreadcount>2</dataproviderthreadcount>
 		<reuseForks>false</reuseForks>
 		<suiteFile>DemoTestCases.xml</suiteFile>
 		<browser>chrome</browser>
 		<device>iPhone 7</device>
+		<jenkinsBuildTag>local</jenkinsBuildTag>
+		<jenkins.job.name>local</jenkins.job.name>
+		<jenkins.build.number>local</jenkins.build.number>
+		<jenkins.git.branch>local</jenkins.git.branch>
 	</properties>
 
 	<build>
@@ -42,6 +46,10 @@
 						<browser>${browser}</browser>
 						<propertiesFile>${propertiesFile}</propertiesFile>
 						<device>${device}</device>
+						<jenkinsBuildTag>${jenkinsBuildTag}</jenkinsBuildTag>
+						<jenkinsJobName>${jenkins.job.name}</jenkinsJobName>
+						<jenkinsBuildNumber>${jenkins.build.number}</jenkinsBuildNumber>
+						<jenkinsGitBranch>${jenkins.git.branch}</jenkinsGitBranch>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
@@ -197,6 +205,11 @@
 			<groupId>ru.yandex.qatools.ashot</groupId>
 			<artifactId>ashot</artifactId>
 			<version>1.5.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.saucelabs</groupId>
+			<artifactId>saucerest</artifactId>
+			<version>1.0.44</version>
 		</dependency>
 	</dependencies>
 	<profiles>
