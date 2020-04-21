@@ -1039,3 +1039,10 @@ Session ID: b2e2bd3b-574d-48e6-aa4f-203eac220ea1
 2020-04-14 15:16:34,558 [TestNG-PoolService-3] INFO  log - Method - reportFail - Exception got occured while validating all the common questions
 2020-04-14 15:16:34,559 [TestNG-PoolService-3] INFO  log - Method - reportFail - validation for all the Common Questions get failed
 2020-04-14 15:16:35,570 [TestNG-PoolService-3] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-21 11:49:16,787 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************
+2020-04-21 11:49:48,287 [TestNG-PoolService-0] INFO  log - Method - parseJsonTestData -  : Loaded test data from file: BorrowerPortalVerifyData.json : {"CommonQuestionPageHeader":"Common Questions"}
+2020-04-21 11:49:53,741 [TestNG-PoolService-0] INFO  log - Method - reportPass - Navigate to URL
+2020-04-21 11:50:21,162 [TestNG-PoolService-0] INFO  log - Method - reportPass - Clicked on common question tab
+2020-04-21 11:50:28,678 [TestNG-PoolService-0] INFO  log - Method - reportPass - Verified Common Questions text
+2020-04-21 11:50:31,129 [TestNG-PoolService-0] INFO  log - ***************** End of Test: runScenario *****************
+2020-04-21 11:50:31,130 [TestNG-PoolService-0] INFO  log - ***************** Starting Test: runScenario *****************

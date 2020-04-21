@@ -6,13 +6,7 @@
 			"ie.enableFullPageScreenshot": true,
 			"pageLoadStrategy": "normal",
 			"unhandledPromptBehavior": "accept",
-			"unexpectedAlertBehaviour": "accept",
-			"nativeEvents": false,
-			"disable-popup-blocking": true,
-			"enablePersistentHover": true,
-			"ignoreZoomSetting": true,
-			"requireWindowFocus": true,
-			"javascriptEnabled": true
+			"unexpectedAlertBehaviour": "accept"
 		},
 		"chrome": {
 			"handlesAlerts": true,
@@ -24,7 +18,7 @@
 			}
 		},
 		"firefox": {
-			"acceptInsecureCerts": true,
+			"acceptInsecureCerts": false,
 			"unhandledPromptBehavior": "ignore",
 			"pageLoadStrategy": "normal",
 			"firefoxOptions": {
@@ -37,55 +31,595 @@
 			"pageLoadStrategy": "normal"
 		}
 	},
-	"onFutureCloud": {
+	"sauceLabs": {
 		"Windows 10:Chrome latest": {
-			"platformName": "Windows",
-			"platformVersion": "10",
-			"browser": "chrome",
+			"platform": "Windows 10",
+			"browserName": "chrome",
 			"version": "latest",
-			"resolution": "1280x1024"
+			"extendedDebugging": true,
+			"build": "local"
 		},
-		"Windows 10:Chrome 72": {
-			"platformName": "Windows",
-			"platformVersion": "10",
-			"browser": "chrome",
-			"version": "72",
-			"resolution": "1280x1024"
+		"Windows 10:Chrome latest-1": {
+			"platform": "Windows 10",
+			"browserName": "chrome",
+			"version": "latest-1",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Chrome latest-2": {
+			"platform": "Windows 10",
+			"browserName": "chrome",
+			"version": "latest-2",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Chrome latest-3": {
+			"platform": "Windows 10",
+			"browserName": "chrome",
+			"version": "latest-3",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Chrome latest-4": {
+			"platform": "Windows 10",
+			"browserName": "chrome",
+			"version": "latest-4",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Chrome latest-5": {
+			"platform": "Windows 10",
+			"browserName": "chrome",
+			"version": "latest-5",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Chrome 64": {
+			"browserName": "chrome",
+			"platform": "Windows 10",
+			"version": "64.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Chrome 60": {
+			"platform": "Windows 10",
+			"browserName": "chrome",
+			"version": "60.0",
+			"extendedDebugging": true,
+			"build": "local"
 		},
 		"Windows 10:Firefox latest": {
+			"platform": "Windows 10",
+			"browserName": "firefox",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Firefox 65": {
+			"platform": "Windows 10",
+			"browserName": "firefox",
+			"version": "65.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Firefox 63": {
+			"platform": "Windows 10",
+			"browserName": "firefox",
+			"version": "63.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Edge latest": {
+			"platform": "Windows 10",
+			"browserName": "MicrosoftEdge",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 10:Edge 16": {
+			"platform": "Windows 10",
+			"browserName": "MicrosoftEdge",
+			"version": "16.16299",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome latest": {
+			"platform": "Windows 8.1",
+			"browserName": "chrome",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome latest-1": {
+			"platform": "Windows 8.1",
+			"browserName": "chrome",
+			"version": "latest-1",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome latest-2": {
+			"platform": "Windows 8.1",
+			"browserName": "chrome",
+			"version": "latest-2",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome latest-3": {
+			"platform": "Windows 8.1",
+			"browserName": "chrome",
+			"version": "latest-3",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome latest-4": {
+			"platform": "Windows 8.1",
+			"browserName": "chrome",
+			"version": "latest-4",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome 64": {
+			"browserName": "chrome",
+			"platform": "Windows 8.1",
+			"version": "64.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Chrome 60": {
+			"platform": "Windows 8.1",
+			"browserName": "chrome",
+			"version": "60.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Firefox latest": {
+			"platform": "Windows 8.1",
+			"browserName": "firefox",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Firefox 65": {
+			"platform": "Windows 8.1",
+			"browserName": "firefox",
+			"version": "65.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8.1:Firefox 63": {
+			"platform": "Windows 8.1",
+			"browserName": "firefox",
+			"version": "63.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8:Chrome latest": {
+			"platform": "Windows 8",
+			"browserName": "chrome",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8:Chrome latest-1": {
+			"platform": "Windows 8",
+			"browserName": "chrome",
+			"version": "latest-1",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8:Chrome 64": {
+			"browserName": "chrome",
+			"platform": "Windows 8",
+			"version": "64.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8:Chrome 60": {
+			"platform": "Windows 8",
+			"browserName": "chrome",
+			"version": "60.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8:Firefox latest": {
+			"platform": "Windows 8",
+			"browserName": "firefox",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Windows 8:Firefox 65": {
+			"platform": "Windows 8",
+			"browserName": "firefox",
+			"version": "65.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac Mojave:Firefox latest": {
+			"browserName": "firefox",
+			"platform": "macOS 10.14",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac Mojave:Chrome latest": {
+			"browserName": "chrome",
+			"platform": "macOS 10.14",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac Mojave:Chrome latest-2": {
+			"browserName": "chrome",
+			"platform": "macOS 10.14",
+			"version": "latest-2",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac Hi Sierra:Firefox": {
+			"browserName": "firefox",
+			"platform": "macOS 10.13",
+			"version": "66.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac EI Capitan:Safari 10": {
+			"browserName": "safari",
+			"platform": "OS X 10.11",
+			"version": "10.0",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac Yosemite:Chrome latest": {
+			"browserName": "chrome",
+			"platform": "OS X 10.10",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Mac Yosemite:Firefox latest-2": {
+			"browserName": "firefox",
+			"platform": "OS X 10.10",
+			"version": "latest-2",
+			"extendedDebugging": true,
+			"build": "local"
+		},
+		"Linux :Chrome latest": {
+			"browserName": "firefox",
+			"platform": "Linux",
+			"version": "latest",
+			"extendedDebugging": true,
+			"build": "local"
+		}
+	},
+	"browserStack": {
+		"capabilities": {
+			"browserstack.local": true,
+			"browserstack.debug": true,
+			"browserstack.networkLogs": true,
+			"browserstack.seleniumLogs": true,
+			"browserstack.console": "errors",
+			"build": "local",
+			"project": "qa-automation"
+		},
+		"environments": {
+			"Windows 10:Chrome 81": {
+				"os": "Windows",
+				"os_version": "10",
+				"browser": "Chrome",
+				"browser_version": "81.0",
+				"browserstack.local": "false",
+				"browserstack.selenium_version": "3.5.2"
+			},
+			"Windows 10:Chrome 72": {
+				"os": "Windows",
+				"os_version": "10",
+				"browser": "Chrome",
+				"browser_version": "72.0",
+				"browserstack.local": "false",
+				"browserstack.selenium_version": "3.5.2"
+			},
+			"Windows 10:Chrome 68": {
+				"os": "Windows",
+				"os_version": "10",
+				"browser": "Chrome",
+				"browser_version": "68.0",
+				"browserstack.local": "false",
+				"browserstack.selenium_version": "3.5.2"
+			},
+			"Windows 10:Firefox 68": {
+				"os": "Windows",
+				"os_version": "10",
+				"browser": "Firefox",
+				"browser_version": "68.0",
+				"browserstack.local": "false"
+			},
+			"Windows 8.1:Opera 12.16": {
+				"os": "Windows",
+				"os_version": "8.1",
+				"browser": "Opera",
+				"browser_version": "12.16",
+				"browserstack.local": "false"
+			},
+			"Windows 8.1:Chrome 76.0 beta": {
+				"os": "Windows",
+				"os_version": "8.1",
+				"browser": "Chrome",
+				"browser_version": "76.0 beta",
+				"browserstack.local": "false"
+			},
+			"Windows 8.1:Firefox 67.0": {
+				"os": "Windows",
+				"os_version": "8.1",
+				"browser": "Firefox",
+				"browser_version": "67.0",
+				"browserstack.local": "false"
+			},
+			"Windows 8:IE 10": {
+				"os": "Windows",
+				"os_version": "8",
+				"browser": "IE",
+				"browser_version": "10.0",
+				"browserstack.local": "false"
+			},
+			"Windows 7:Firefox 64": {
+				"os": "Windows",
+				"os_version": "7",
+				"browser": "Firefox",
+				"browser_version": "64.0",
+				"browserstack.local": "false"
+			},
+			"Windows XP:IE 7": {
+				"os": "Windows",
+				"os_version": "XP",
+				"browser": "IE",
+				"browser_version": "7.0",
+				"browserstack.local": "false"
+			},
+			"Windows XP:Chrome 7": {
+				"os": "Windows",
+				"os_version": "XP",
+				"browser": "Chrome",
+				"browser_version": "49.0",
+				"browserstack.local": "false"
+			},
+			"Mac EI Capitan:Safari 9.1": {
+				"os": "OS X",
+				"os_version": "El Capitan",
+				"browser": "Safari",
+				"browser_version": "9.1",
+				"browserstack.local": "false"
+			},
+			"Mac Mountain Lion:Firefox 48": {
+				"os": "OS X",
+				"os_version": "Mountain Lion",
+				"browser": "Firefox",
+				"browser_version": "48.0",
+				"browserstack.local": "false"
+			},
+			"Mac Snow Leopard Lion:Chrome 49": {
+				"os": "OS X",
+				"os_version": "Snow Leopard",
+				"browser": "Chrome",
+				"browser_version": "49.0",
+				"browserstack.local": "false",
+				"browserstack.selenium_version": "2.46.0"
+			},
+			"Mac Mojave:Chrome 74": {
+				"os": "OS X",
+				"os_version": "Mojave",
+				"browser": "Chrome",
+				"browser_version": "74.0",
+				"browserstack.local": "false"
+			},
+			"Mac High Sierra:Chrome 73": {
+				"os": "OS X",
+				"os_version": "High Sierra",
+				"browser": "Chrome",
+				"browser_version": "73.0",
+				"browserstack.local": "false"
+			},
+			"Mac Mavericks:Chrome 64": {
+				"os": "OS X",
+				"os_version": "Mavericks",
+				"browser": "Chrome",
+				"browser_version": "64.0",
+				"browserstack.local": "false"
+			},
+			"Iphone XS": {
+				"os_version": "12",
+				"device": "iPhone XS",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			},
+			"iPhone 6S": {
+				"os_version": "12",
+				"device": "iPhone 6S",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			},
+			"iPad Pro 12.9 2018": {
+				"os_version": "12",
+				"device": "iPad Pro 12.9 2018",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			},
+			"Iphone 8 Plus": {
+				"os_version": "11",
+				"device": "iPhone 8 Plus",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			},
+			"Samsung Galaxy S9 Plus": {
+				"os_version": "9.0",
+				"device": "Samsung Galaxy S9 Plus",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			},
+			"Samsung Galaxy Note 8": {
+				"os_version": "7.1",
+				"device": "Samsung Galaxy Note 8",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			},
+			"Samsung Galaxy Tab S4": {
+				"os_version": "8.1",
+				"device": "Samsung Galaxy Tab S4",
+				"real_mobile": "true",
+				"browserstack.local": "false"
+			}
+		}
+	},
+	"perfectoWeb": {
+		"Windows 10:Chrome 81": {
 			"platformName": "Windows",
 			"platformVersion": "10",
-			"browser": "firefox",
-			"version": "latest",
-			"resolution": "1280x1024"
+			"browserName": "Chrome",
+			"browserVersion": "81",
+			"resolution": "1280x1024",
+			"location": "US East"
 		},
-		"Windows 7:Firefox 64": {
+		"Windows 10:Chrome 70": {
 			"platformName": "Windows",
-			"platformVersion": "7",
-			"browser": "firefox",
-			"version": "64",
-			"resolution": "1280x1024"
-		},
-		"Mac EI Capitan:Firefox latest": {
-			"platformName": "OSX",
-			"platformVersion": "EI Capitan",
-			"browser": "firefox",
-			"version": "latest",
-			"resolution": "1280x1024"
-		},
-		"Mac Mountain Lion:Safari latest": {
-			"platformName": "OSX",
-			"platformVersion": "Mountain Lion",
-			"browser": "safari",
-			"version": "latest",
-			"resolution": "1280x1024"
+			"platformVersion": "10",
+			"browserName": "Chrome",
+			"browserVersion": "70",
+			"resolution": "1280x1024",
+			"location": "US East"
 		},
 		"Windows 10:Edge 18": {
 			"platformName": "Windows",
 			"platformVersion": "10",
-			"browser": "edge",
-			"version": "18",
-			"resolution": "1280x1024"
+			"browserName": "Edge",
+			"browserVersion": "18",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 10:Edge 14": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browserName": "Edge",
+			"browserVersion": "14",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 10:Firefox 67": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browserName": "Firefox",
+			"browserVersion": "67",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 10:Firefox 62": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browserName": "Firefox",
+			"browserVersion": "62",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 10:IE 11": {
+			"platformName": "Windows",
+			"platformVersion": "10",
+			"browserName": "Internet Explorer",
+			"browserVersion": "11"
+		},
+		"Windows 8.1:Chrome 75": {
+			"platformName": "Windows",
+			"platformVersion": "8.1",
+			"browserName": "Chrome",
+			"browserVersion": "75",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 8.1:Chrome 73": {
+			"platformName": "Windows",
+			"platformVersion": "8.1",
+			"browserName": "Chrome",
+			"browserVersion": "73",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 8.1:Chrome 71": {
+			"platformName": "Windows",
+			"platformVersion": "8.1",
+			"browserName": "Chrome",
+			"browserVersion": "71",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 8.1:Firefox 67": {
+			"platformName": "Windows",
+			"platformVersion": "8.1",
+			"browserName": "Firefox",
+			"browserVersion": "67",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 8.1:Firefox 65": {
+			"platformName": "Windows",
+			"platformVersion": "8.1",
+			"browserName": "Firefox",
+			"browserVersion": "65",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 8.1:IE 11": {
+			"platformName": "Windows",
+			"platformVersion": "8.1",
+			"browserName": "Internet Explorer",
+			"browserVersion": "11",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 7:Chrome 71": {
+			"platformName": "Windows",
+			"platformVersion": "7",
+			"browserName": "Chrome",
+			"browserVersion": "71",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 7:Firefox 64": {
+			"platformName": "Windows",
+			"platformVersion": "7",
+			"browserName": "Firefox",
+			"browserVersion": "64",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Windows 7:IE 11": {
+			"platformName": "Windows",
+			"platformVersion": "7",
+			"browserName": "Internet Explorer",
+			"browserVersion": "11",
+			"resolution": "1280x1024",
+			"location": "US East"
+		},
+		"Mac Mojave :Chrome 74": {
+			"platformName": "Mac",
+			"platformVersion": "macOS Mojave",
+			"browserName": "Chrome",
+			"browserVersion": "74",
+			"resolution": "1280x1024",
+			"location": "NA-US-BOS"
+		},
+		"Mac Mojave :Firefox 66": {
+			"platformName": "Mac",
+			"platformVersion": "macOS Mojave",
+			"browserName": "Firefox",
+			"browserVersion": "66",
+			"resolution": "1280x1024",
+			"location": "NA-US-BOS"
+		},
+		"Mac Mojave :Safari 12": {
+			"platformName": "Mac",
+			"platformVersion": "macOS Mojave",
+			"browserName": "Safari",
+			"browserVersion": "12",
+			"resolution": "1280x1024",
+			"location": "NA-US-BOS"
 		}
 	}
 }
