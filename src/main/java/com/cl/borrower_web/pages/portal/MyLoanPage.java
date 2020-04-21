@@ -23,5 +23,9 @@ public class MyLoanPage extends ObjectBase {
 	
 	@FindBy(how = How.CSS, using = "a[aria-label='common questions']")
 	public WebElement commonQuestionsTab;
-
+	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Property Address')]")
+	public WebElement propAddress;
+	
+	
 }
