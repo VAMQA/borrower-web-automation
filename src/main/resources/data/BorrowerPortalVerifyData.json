@@ -9,11 +9,21 @@
 		},
 		"MyLoanDetails": {
 			"HeaderNameMyLoan": "My Loan",
+			"PropertyAddress": "Property Address",
+			"PropertyAddressLine1": "123 Anywhere Street",
+			"PropertyAddressLine2": "SEFFNER, FL 99999",
+			"loanInformation": "Loan Information",
 			"MyLoanAccountNumber": "49265",
-			"CurrentNetPrincipalLimitText": "Current Net Principal Limit"
-		},
-		"BorrowerDetails": {
-			"BorrowerName": "ANITA Bortest"
+			"MyLoanAccountLoanType": "HECM",
+			"CurrentNetPrincipalLimit": "$-958.70",
+			"CurrentNetPrincipalLimitText": "Current Net Principal Limit",
+			"CurrentAvailableLineofCredit": "$-958.70",
+			"CurrentTotalLoanBalance": "$173,714.93",
+			"InterestRate": "3.29000%",
+			"SetAsideFunds": "$4,439.10",
+			"BorrowerName": "ANITA Bortest",
+			"YourProfile": "Your Profile",
+			"OtherBorrowers": "Other Borrowers"
 		},
 		"CommonQuestion": {
 			"CommonQuestionPageHeader": "Common Questions"

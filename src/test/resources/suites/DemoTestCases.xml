@@ -5,7 +5,7 @@
 	
 	<test thread-count="5" name="Tests on chrome" enabled="true" parallel="methods">
 		<parameter name="browser" value="chrome"></parameter>
-		<parameter name="tags" value="@Demo1"></parameter>
+		<parameter name="tags" value="@LoginMyLoan"></parameter>
 		<classes>
 			<class name="com.cl.borrower_web.runners.WebTestRunner" />
 		</classes>
