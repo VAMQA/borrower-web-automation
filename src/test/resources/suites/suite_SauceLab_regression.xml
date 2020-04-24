@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="50" data-provider-thread-count="1">
+	<test thread-count="5" name="Windows 10:Chrome latest" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome latest"></parameter>
+		<parameter name="tags" value="@Regression"></parameter>
+		<parameter name="testSetId" value=""></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Firefox latest -3rd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Firefox latest"></parameter>
+		<parameter name="tags" value="@Demo1"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<!-- <test thread-count="5" name="Windows 10:Chrome latest-1" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome latest-1"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Chrome 64" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 64"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Chrome 60" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 60"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Firefox latest" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Firefox 65" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Firefox 65"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Firefox 63" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Firefox 63"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Edge latest" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Edge 16" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge 16"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Chrome latest" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Chrome latest-1" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome latest-1"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Chrome 64" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome 64"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Chrome 60" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome 60"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Firefox latest" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Firefox 65" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Firefox 65"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Firefox 63" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Firefox 63"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Chrome latest" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Chrome latest-1" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8:Chrome latest-1"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Chrome 64" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8:Chrome 64"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Chrome 60" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8:Chrome 60"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Windows 8:Firefox latest -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Firefox 65 -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Windows 8:Firefox 65"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Firefox latest -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Chrome latest -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Chrome latest-2 -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Chrome latest-2"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Hi Sierra:Firefox -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Hi Sierra:Firefox"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac EI Capitan:Safari 10 -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac EI Capitan:Safari 10"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Yosemite:Chrome latest -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Yosemite:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Yosemite:Firefox latest-2 -2nd iteration" enabled="false" parallel="methods">
+		<parameter name="browser" value="Mac Yosemite:Firefox latest-2"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Linux :Chrome latest -2nd iteration" enabled="true" parallel="methods">
+		<parameter name="browser" value="Linux :Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	
+	
+	
+	
+	
+	
+	<test thread-count="5" name="Windows 8:Firefox latest" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Firefox 65" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8:Firefox 65"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Firefox latest" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Chrome latest" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Chrome latest-2" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Chrome latest-2"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Hi Sierra:Firefox" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Hi Sierra:Firefox"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac EI Capitan:Safari 10" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac EI Capitan:Safari 10"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Yosemite:Chrome latest" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Yosemite:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Yosemite:Firefox latest-2" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Yosemite:Firefox latest-2"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc2"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Linux :Chrome latest" enabled="true" parallel="methods">
+		<parameter name="browser" value="Linux :Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@poc"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+		<test thread-count="5" name="Windows 10:Edge latest-3rd" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 10:Edge 16-3rd" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Edge 16"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8.1:Chrome latest-3rd" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Mac EI Capitan:Safari 10-3rd" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac EI Capitan:Safari 10"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Yosemite:Chrome latest-3rd" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Yosemite:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Yosemite:Firefox latest-2-3rd" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Yosemite:Firefox latest-2"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Windows 8:Firefox latest -3rd iteration" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Windows 8:Firefox 65 -3rd iteration" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8:Firefox 65"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Firefox latest -3rd iteration" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Firefox latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac Mojave:Chrome latest -3rd iteration" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Chrome latest"></parameter>
+		<parameter name="glue" value="com.wb.wol_web.steps"></parameter>
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test> -->
+	
+</suite> 
