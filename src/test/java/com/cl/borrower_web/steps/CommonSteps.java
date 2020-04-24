@@ -19,7 +19,7 @@ public class CommonSteps extends ObjectBase {
 	public String fileName = "";
 	public String testCaseName = "";
 
-	@Given("I load testdata from: {string}, {string}")
+	@Given("i load testdata from: {string}, {string}")
 	public void i_load_testdata_from(String fileName, String testCaseName) throws Exception {
 		jsonDataParser.parseJsonTestData(fileName, testCaseName);
 	}

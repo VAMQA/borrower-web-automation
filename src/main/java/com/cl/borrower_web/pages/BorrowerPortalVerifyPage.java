@@ -113,6 +113,33 @@ public class BorrowerPortalVerifyPage extends ObjectBase {
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[1]")
 	public WebElement borrowerDetailsName;
 	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[2]")
+	public WebElement borrowerDetailsDob;
+	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[3]")
+	public WebElement borDetContInfoMobNo;
+	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[4]")
+	public WebElement borDetContInfoEmailid;
+	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[5]")
+	public WebElement borDetMailingAddL1;
+	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[6]")
+	public WebElement borDetMailingAddL2;
+	
+	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[7]")
+	public WebElement borDetOthBorPerDetailsName;
+	
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'What is required to change my information above?')]")
+	public WebElement borDetChangInfoLink;	
+	
+	@FindBy(how = How.XPATH, using = "//h3[contains(text(), 'Mailing Address and Name Changes')]")
+	public WebElement ComnQsnMailingAdrsandNameChagText;	
+	
+	
+	
+	
 	@FindBy(how = How.XPATH, using = "	//a[contains(text(), 'View All Transactions')]")
 	public WebElement ViewAllTransactionsLink;
 
@@ -123,6 +150,19 @@ public class BorrowerPortalVerifyPage extends ObjectBase {
 	
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Other Borrowers')]")
 	public WebElement BorDetOtherBorrowers;
+	
+	// Borrower Details -> Your Profile
+	
+	@FindBy(how = How.XPATH, using = "	//div[@class='mailing-address']//div//div//h5[contains(text(),'Personal Details')]")
+	public WebElement BorDetPersonalDetails;
+
+
+	@FindBy(how = How.XPATH, using = "//h5[contains(text(), 'Contact Information')]")
+	public WebElement BorDetContactInformation;
+
+	@FindBy(how = How.XPATH, using = "//h5[contains(text(), 'Mailing Address')]")
+	public WebElement BorDetMailingAddress;
+	
 	
 	
 	

@@ -22,8 +22,19 @@
 			"InterestRate": "3.29000%",
 			"SetAsideFunds": "$4,439.10",
 			"BorrowerName": "ANITA Bortest",
+			"BorrowerDob": "9/23/1943",
+			"BorDetMobno": "(555) 555-5555",
+			"BorDetEmailid": "autovmbortest1@gmail.com",
+			"BorDetMailingAdrLine1": "123 Anywhere Street",
+			"BorDetMailingAdrLine2": "SEFFNER FL 99999",
+			"BorDetPerDteName": "RUGENE L Cobortest",
+			"BorDetLinktext": "What is required to change my information above?",
 			"YourProfile": "Your Profile",
-			"OtherBorrowers": "Other Borrowers"
+			"OtherBorrowers": "Other Borrowers",
+			"YourProfilePersonalDetails": "Personal Details",
+			"YourProfileContactInformation": "Contact Information",
+			"MailingAddressandNameChanges": "Mailing Address and Name Changes",
+			"YourProfileMailingAddress": "Mailing Address"
 		},
 		"CommonQuestion": {
 			"CommonQuestionPageHeader": "Common Questions"

@@ -1,7 +1,7 @@
 #Author: NagaSrinivas
 #Date:
 #Modified By:
-@Login
+#@Login
 Feature: Login and Upload a form in common forms Page
 
   #Test Scenario-3 : Verify the all common questions

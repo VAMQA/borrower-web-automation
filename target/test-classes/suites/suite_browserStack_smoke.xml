@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="25" data-provider-thread-count="1">
+
+	<test thread-count="5" name="Windows 10:Chrome 81" enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 81"></parameter>
+		<parameter name="tags" value="@Smoke"></parameter>
+		<parameter name="testSetId" value=""></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Mac EI Capitan:Safari 9.1" enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac EI Capitan:Safari 9.1"></parameter>
+		
+		<parameter name="tags" value="@Demo1"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+	
+
+
+	<!-- <test thread-count="5" name="Windows 10:Chrome 72" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 72"></parameter>
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Windows 10:Chrome 68" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows 10:Chrome 68"></parameter>
+		
+		<parameter name="tags" value="@28645"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Windows 10:Firefox 68" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows 10:Firefox 68"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Windows 8:IE 10" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows 8:IE 10"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Windows 8.1:Chrome 76.0 beta"
+		enabled="true" parallel="methods">
+		<parameter name="browser"
+			value="Windows 8.1:Chrome 76.0 beta"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Windows 8.1:Firefox 67.0"
+		enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Firefox 67.0"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Windows 8.1:Opera 12.16"
+		enabled="true" parallel="methods">
+		<parameter name="browser" value="Windows 8.1:Opera 12.16"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Windows XP:IE 7" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows XP:IE 7"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Windows XP:Chrome 7" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows XP:Chrome 7"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="Windows 7:Firefox 64" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Windows 7:Firefox 64"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Mac EI Capitan:Safari 9.1"
+		enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac EI Capitan:Safari 9.1"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Mac Mountain Lion:Firefox 48"
+		enabled="true" parallel="methods">
+		<parameter name="browser"
+			value="Mac Mountain Lion:Firefox 48"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Mac Snow Leopard Lion:Chrome 49"
+		enabled="true" parallel="methods">
+		<parameter name="browser"
+			value="Mac Snow Leopard Lion:Chrome 49"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Iphone XS" enabled="false"
+		parallel="methods">
+		<parameter name="browser" value="Iphone XS"></parameter>
+		
+		<parameter name="tags" value="@28634"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="iPhone 6S" enabled="false"
+		parallel="methods">
+		<parameter name="browser" value="iPhone 6S"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="iPad Pro 12.9 2018" enabled="false"
+		parallel="methods">
+		<parameter name="browser" value="iPad Pro 12.9 2018"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Iphone 8 Plus" enabled="false"
+		parallel="methods">
+		<parameter name="browser" value="Iphone 8 Plus"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Samsung Galaxy S9 Plus"
+		enabled="false" parallel="methods">
+		<parameter name="browser" value="Samsung Galaxy S9 Plus"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Samsung Galaxy Note 8"
+		enabled="false" parallel="methods">
+		<parameter name="browser" value="Samsung Galaxy Note 8"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Samsung Galaxy Tab S4"
+		enabled="false" parallel="methods">
+		<parameter name="browser" value="Samsung Galaxy Tab S4"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Mac Mojave:Chrome 74" enabled="true"
+		parallel="methods">
+		<parameter name="browser" value="Mac Mojave:Chrome 74"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Mac High Sierra:Chrome 73"
+		enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac High Sierra:Chrome 73"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Mac Mavericks:Chrome 64"
+		enabled="true" parallel="methods">
+		<parameter name="browser" value="Mac Mavericks:Chrome 64"></parameter>
+		
+		<parameter name="tags" value="@30156"></parameter>
+		<classes>
+			<class name="com.cl.borrower_web.runners.WebTestRunner" />
+		</classes>
+	</test>
+ -->
+</suite> 

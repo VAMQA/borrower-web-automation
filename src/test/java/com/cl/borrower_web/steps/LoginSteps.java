@@ -14,10 +14,9 @@ public class LoginSteps extends ObjectBase {
 
 	BorrowerPortalVerifyPage borrowerPortalVerifyPage = new BorrowerPortalVerifyPage();
 
-	@Given("As a user I logged into borrower portal")
-	public void as_a_user_I_logged_into_borrower_portal() {
+	@Given("i logged into borrower portal")
+	public void i_logged_into_borrower_portal() {
 		try {
-			waits.staticWait(2000);
 			waits.waitForPageReadyState();
 			reportPass("Navigate to URL");
 		} catch (Exception e) {
@@ -26,15 +25,13 @@ public class LoginSteps extends ObjectBase {
 		}
 	}
 
-	@When("User enters username and password and click on SignIn button")
-	public void user_enters_username_and_password_and_click_on_SignIn_button() {
-		System.out.println("User enters username and password");
-		waits.staticWait(2000);
+	@When("i enters username and password and click on signin button")
+	public void i_enters_username_and_password_and_click_on_signin_button() {
 		if (borrowerPortalVerifyPage.userEmailTextBox != null && borrowerPortalVerifyPage.passwordTextBox != null) {
 			webActions.setValue(borrowerPortalVerifyPage.userEmailTextBox, username);
 			webActions.setValue(borrowerPortalVerifyPage.passwordTextBox, password);
 			webActions.clickElement(borrowerPortalVerifyPage.signIn);
-			waits.staticWait(10000);
+			waits.waitForPageToLoad(8000);
 		}
 	}
 
