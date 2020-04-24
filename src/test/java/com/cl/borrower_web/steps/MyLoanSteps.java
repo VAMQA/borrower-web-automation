@@ -137,7 +137,7 @@ public class MyLoanSteps extends ObjectBase {
 	@Then("click on loan details tab")
 	public void click_on_loan_details_tab() {
 		try {
-			waits.staticWait(2000);
+			waits.waitForPageReadyState();
 			webActions.clickElement(borrowerPortalVerifyPage.loanDetailsTab);
 			waits.waitForPageReadyState();
 			reportPass("Clicked on Loan Details tab");
