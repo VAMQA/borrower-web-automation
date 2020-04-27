@@ -1,0 +1,14 @@
+{
+	"testDataList": {
+		"CommonFormsValidationData": {
+			"HeaderNameMyLoan": "My Loan",
+			"commonFormsPageheader": "How to send us a form:",
+			"SendFormContainerHeader": "Send from a computer or smart phone",
+			"SendFormContainerSubHeader":"If you have the completed, signed form as a file on your computer, you can send it to us now.",
+			"FormUploadPageHeader":"Form Upload",
+			"UploadDocumentPath":"D:\\Docs\\Electronic_Fund_Transfer_Direct_Deposit_Form.pdf",
+			"ValidateUploadedMessage":"Electronic_Fund_Transfer_Direct_Deposit_Form.pdf",
+			"SuccessfullValidationMessage":"Successfully uploaded file"			
+		}
+	}
+}
