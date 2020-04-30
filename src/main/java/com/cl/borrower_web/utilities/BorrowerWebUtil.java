@@ -209,6 +209,40 @@ public class BorrowerWebUtil {
 		return rowsData;
 
 	}
+	
+	
+	/**
+	 * To return all the rows values from web table
+	 * 
+	 * @param table: web element table id
+	 * @Created on: 04282020
+	 * @Created by: satish patil
+	 */
+	public ArrayList<String> getTableheaderValues(WebElement table) {
+		ArrayList<String> rowsData = null;
+		try {
+			List<WebElement> rows = table.findElements(By.xpath(".//thead//tr"));
+			rowsData = new ArrayList<String>();
+
+			for (WebElement row : rows) {
+				List<WebElement> rowElements = row.findElements(By.xpath(".//th"));
+
+				ArrayList<String> rowData = new ArrayList<String>();
+
+				for (WebElement column : rowElements) {
+					rowData.add(column.getText().toString());
+				}
+				rowsData.addAll(rowData);
+
+			}
+
+		} catch (Exception e) {
+			LogUtility.logException("-->getTableValues<--", "Failed to get table rows data", e, LoggingLevel.ERROR,
+					true);
+		}
+		return rowsData;
+
+	}
 
 	/**
 	 * To return specified back date
