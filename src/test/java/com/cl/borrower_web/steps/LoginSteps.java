@@ -25,17 +25,18 @@ public class LoginSteps extends ObjectBase {
 		}
 	}
 
-	@When("i enters username and password and click on signin button")
+	@When("i enter username and password and click on signin button")
 	public void i_enters_username_and_password_and_click_on_signin_button() {
 		if (borrowerPortalVerifyPage.userEmailTextBox != null && borrowerPortalVerifyPage.passwordTextBox != null) {
 			webActions.setValue(borrowerPortalVerifyPage.userEmailTextBox, username);
 			webActions.setValue(borrowerPortalVerifyPage.passwordTextBox, password);
 			webActions.clickElement(borrowerPortalVerifyPage.signIn);
+			waits.waitUntilElementIsPresent(borrowerPortalVerifyPage.myLoanText);
 			waits.waitForPageToLoad(8000);
 		}
 	}
 
-	@When("User enters username and invalid password and click on SignIn button")
+	@When("i enter valid username and invalid password and click on SignIn button")
 	public void user_enters_username_and_invalid_password_and_click_on_SignIn_button() {
 		System.out.println("User enters username and password");
 		waits.staticWait(2000);
