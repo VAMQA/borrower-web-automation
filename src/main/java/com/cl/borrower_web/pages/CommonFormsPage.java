@@ -25,11 +25,11 @@ public class CommonFormsPage extends ObjectBase {
 	@FindBy(how = How.CSS, using = "a[class='upload-button']")
 	public WebElement uploadNowButton;
 	
-	@FindBy(how = How.XPATH, using = "//*[text()='Send from a computer or smart phone']")
+	@FindBy(how = How.XPATH, using = "//h4[text()='Send from a computer or smart phone']")
 	public WebElement sendFormContainerHeader;
 	
 	
-	@FindBy(how = How.XPATH, using = "//*[text()='Send from a computer or smart phone']//parent::div//p")
+	@FindBy(how = How.XPATH, using = "//h4[text()='Send from a computer or smart phone']//parent::div//p")
 	public WebElement sendFormContainerSubHeader;
 	
 	@FindBy(how = How.ID, using = "loc-draw-request")
@@ -58,7 +58,7 @@ public class CommonFormsPage extends ObjectBase {
 	@FindBy(how = How.CSS, using = "button[class='upload-button']")
 	public WebElement uploadButton;
 
-	@FindBy(how = How.XPATH, using = "//*[contains(text(), 'Successfully uploaded file')]")
+	@FindBy(how = How.XPATH, using = "//*[text()='Successfully uploaded file']")
 	public WebElement successfullValidationMessage;
 
 }

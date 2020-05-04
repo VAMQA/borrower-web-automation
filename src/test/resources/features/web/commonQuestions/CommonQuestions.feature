@@ -5,7 +5,7 @@
 Feature: Login and Upload a form in common forms Page
 
   #TestCaseName : BP_TC01-commonQuestions_FUN_Navigate to Common questions Page
-  @Smoke11
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Questions page successfully
     Given i load testdata from: "CommonQuestionsData.json", "CommonQuestionsTestData"
     Given i logged into borrower portal
