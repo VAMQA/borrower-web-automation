@@ -5,11 +5,11 @@
 Feature: Common Forms
 
   #TestcaseName  : BP_TC01_myLoan_UI_Verify details in My Loan Page
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -17,11 +17,11 @@ Feature: Common Forms
     And verify the static text present at the top left of the page
 
   #TestCaseName : BP_TC17_commonForms_FUN_Verify that LOC Advance Request form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -37,11 +37,11 @@ Feature: Common Forms
     Then verify the successfully upload message
 
   #TestCaseName : BP_TC18_commonForms_FUN_Verify that Occupancy Certification form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -57,11 +57,11 @@ Feature: Common Forms
     Then verify the successfully upload message
 
   #TestCaseName : BP_TC20_commonForms_FUN_Verify that Repairs Extension Request form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -77,11 +77,11 @@ Feature: Common Forms
     Then verify the successfully upload message
 
   #TestCaseName : BP_TC23_commonForms_FUN_Verify that  Request for Reverse Mortgage Payoff Quote form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -97,11 +97,11 @@ Feature: Common Forms
     Then verify the successfully upload message
 
   #TestCaseName : BP_TC25_commonForms_FUN_Verify that  Tax Payment Request form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -117,11 +117,11 @@ Feature: Common Forms
     Then verify the successfully upload message
 
   #TestCaseName : BP_TC26_commonForms_FUN_Verify that  Short Sale form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
@@ -137,11 +137,11 @@ Feature: Common Forms
     Then verify the successfully upload message
 
   #TestCaseName : BP_TC27_commonForms_FUN_Verify that  Third Party Authorization form can be uploaded successfully
-  @CommonForms
+  @Smoke
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page should display header as my loan
     When i click on common forms button
     Then verify the landing page displays header as How to send us a form
