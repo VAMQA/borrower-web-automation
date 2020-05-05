@@ -17,25 +17,22 @@ public class MyLoanSteps extends ObjectBase {
 
 	MyLoanPage myLoanPage = new MyLoanPage();
 
+	
 	@Then("verify navigational options should be displayed to the top right")
 	public void verify_navigational_options_should_be_displayed_to_the_top_right() {
-
-		try {
-			waits.waitForPageReadyState();
-			webActions.clickElement(myLoanPage.commonFormTab);
-			waits.waitForPageReadyState();
-			webActions.clickElement(myLoanPage.commonQuestionsTab);
-			waits.waitForPageReadyState();
-			webActions.clickElement(myLoanPage.myLoanTab);
-			reportPass("Verified navigation options");
-		} catch (Exception e) {
-			LogUtility.logException("BorrowerPortalVerify", "Unable to click navigation options", e,
-					LoggingLevel.ERROR, true);
-			reportHardFail("Unable to click navigation options");
-		}
-
-	}
-
+	  
+	  try { waits.waitForPageReadyState();
+	  webActions.clickElement(myLoanPage.commonFormTab);
+	  waits.waitForPageReadyState();
+	  webActions.clickElement(myLoanPage.commonQuestionsTab);
+	  waits.waitForPageReadyState(); webActions.clickElement(myLoanPage.myLoanTab);
+	  reportPass("Verified navigation options"); } catch (Exception e) {
+	  LogUtility.logException("BorrowerPortalVerify",
+	  "Unable to click navigation options", e, LoggingLevel.ERROR, true);
+	  reportHardFail("Unable to click navigation options"); }
+	  
+	  }
+	 
 	@Then("verify property address and loan information")
 	public void verify_property_address_and_loan_information() {
 		try {
