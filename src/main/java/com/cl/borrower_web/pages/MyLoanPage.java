@@ -25,24 +25,18 @@ public class MyLoanPage extends ObjectBase {
 	@FindBy(how = How.CSS, using = "a[aria-label='common forms']")
 	public WebElement commonFormsTab;
 	
-
-	
-
 	@FindBy(how = How.NAME, using = "email")
 	public WebElement userEmailTextBox;
-	
-	
+		
 	@FindBy(how = How.ID, using = "password")
 	public WebElement passwordTextBox;
 	
 	@FindBy(how = How.XPATH, using = "//button[contains(text(), 'Sign In')]")	
 	public WebElement signIn;
 	
-
 	@FindBy(how = How.CSS, using = "p[role='alert'] span.error-message")	
 	public WebElement incorrectUsernamePassword;
-	
-	
+		
 	@FindBy(how = How.ID, using = "title")
 	public WebElement myLoanText;
 	
@@ -55,14 +49,9 @@ public class MyLoanPage extends ObjectBase {
 	@FindBy(how = How.XPATH, using = "//div[@class='borrower-address']//p[2]")
 	public WebElement propertyAddressLineTwo;
 	
-	 
-	//div[@class='borrower-address']//p[1]
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Loan Information')]")
 	public WebElement loanInformation;
-	
-
-	
-	
+		
 	@FindBy(how = How.XPATH, using = "//div[@class='borrower-account']//p[1]")
 	public WebElement accountNumber;
 	
@@ -92,8 +81,7 @@ public class MyLoanPage extends ObjectBase {
 	
 	@FindBy(how = How.ID, using = "my-loan-tabs-tab-transaction-history")
 	public WebElement TransactionHistoryTab;
-	
-	
+		
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Current Net Principal Limit')]")
 	public WebElement currentNetPrincipalLimitText;
 	
@@ -111,16 +99,7 @@ public class MyLoanPage extends ObjectBase {
 	
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Set Aside Funds')]//following::p[1]")
 	public WebElement SetAsideFundsValue;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]//following::p[1]")
 	public WebElement borrowerDetailsName;
 	
@@ -147,13 +126,9 @@ public class MyLoanPage extends ObjectBase {
 	
 	@FindBy(how = How.XPATH, using = "//h3[contains(text(), 'Mailing Address and Name Changes')]")
 	public WebElement ComnQsnMailingAdrsandNameChagText;	
-	
-	
-	
-	
+		
 	@FindBy(how = How.XPATH, using = "	//a[contains(text(), 'View All Transactions')]")
 	public WebElement ViewAllTransactionsLink;
-
 
 	// Borrower Details
 	@FindBy(how = How.XPATH, using = "//h4[contains(text(), 'Your Profile')]")
@@ -163,10 +138,8 @@ public class MyLoanPage extends ObjectBase {
 	public WebElement BorDetOtherBorrowers;
 	
 	// Borrower Details -> Your Profile
-	
 	@FindBy(how = How.XPATH, using = "	//div[@class='mailing-address']//div//div//h5[contains(text(),'Personal Details')]")
 	public WebElement BorDetPersonalDetails;
-
 
 	@FindBy(how = How.XPATH, using = "//h5[contains(text(), 'Contact Information')]")
 	public WebElement BorDetContactInformation;
@@ -174,7 +147,6 @@ public class MyLoanPage extends ObjectBase {
 	@FindBy(how = How.XPATH, using = "//h5[contains(text(), 'Mailing Address')]")
 	public WebElement BorDetMailingAddress;
 	
-
 	//Monthly Statements
 	@FindBy(how = How.XPATH, using = "//*[@id='my-loan-tabs-tabpane-statements']/div/div/div[1]/label[contains(text(), 'Choose A Year')]")
 	public WebElement ChooseAYearText;
@@ -185,18 +157,15 @@ public class MyLoanPage extends ObjectBase {
 	@FindBy(how = How.XPATH, using = "//*[@id='statement-download']/a")
 	public WebElement HowToReadMyStatement;
 	
-
 	@FindBy(how = How.XPATH, using = "//*[@id='my-loan-tabs-tabpane-loan-details']/div/div[2]/div/table")
 	public WebElement LoanDetailsRecentTransactionTableHeader;
-
 	
 	@FindBy(how = How.XPATH, using = "//*[@id='my-loan-tabs-tabpane-loan-details']/div/div[2]/div")
 	public WebElement LoanDetailsRecentTransactionTableValues;
 
 	@FindBy(how = How.XPATH, using = "//*[@id='my-loan-tabs-tabpane-transaction-history']/div/div[2]/table")
 	public WebElement TransactionHistoryTransactionTableHeader;
-	
-	
+		
 	@FindBy(how = How.XPATH, using = "//div[@id='year-select']//following::button")
 	public WebElement TransactionHistorYearDropDown;
 	
@@ -206,13 +175,9 @@ public class MyLoanPage extends ObjectBase {
 	@FindBy(how = How.XPATH, using = "//div[@id='year-select']/div/a")
 	public List<WebElement> TransactionHistorYearDropDownList;
 	
-	////div[@id='my-loan-tabs-tabpane-transaction-history']/div/div[2]
 	@FindBy(how = How.XPATH, using = "//div[@id='my-loan-tabs-tabpane-transaction-history']/div/div[2][contains(@class, 'table-responsive')]")
 	public WebElement TransactionHistoryTransactionTableValues;
-	
-	
-	
-	
+		
 	public List<String> getVisibleElementText(List<WebElement> TransactionHistorYearDropDownList) {
 		List<String> lstOfText = new ArrayList<String>();
 		for (WebElement element : TransactionHistorYearDropDownList) {
