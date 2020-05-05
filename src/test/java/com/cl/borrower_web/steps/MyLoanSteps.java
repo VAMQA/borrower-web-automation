@@ -1,6 +1,3 @@
-
-
-
 package com.cl.borrower_web.steps;
 
 import java.util.ArrayList;
@@ -19,8 +16,6 @@ public class MyLoanSteps extends ObjectBase {
 
 
 	MyLoanPage myLoanPage = new MyLoanPage();
-
-
 
 	@Then("verify navigational options should be displayed to the top right")
 	public void verify_navigational_options_should_be_displayed_to_the_top_right() {
@@ -59,8 +54,6 @@ public class MyLoanSteps extends ObjectBase {
 		}
 	}
 
-
-
 	@Then("verify recent transactions details")
 	public void verify_recent_transactions_details() {
 		try {
@@ -73,9 +66,6 @@ public class MyLoanSteps extends ObjectBase {
 			reportHardFail("Unable to click on view all transactions link");
 		}
 	}
-
-
-
 
 	@Then("verify the landing page displays header as my loan")
 	public void verify_the_landing_page_displays_header_as_my_loan() {
@@ -156,9 +146,6 @@ public class MyLoanSteps extends ObjectBase {
 
 	}
 
-
-
-
 	@When("click on monthly statement tab")
 	public void click_on_monthly_statement_tab() {
 		try {
@@ -188,7 +175,6 @@ public class MyLoanSteps extends ObjectBase {
 			reportHardFail("Unable to click on transaction history tab");
 		}
 	}
-
 
 	@Then("verify Current Net Principal Limit text")
 	public void verify_Current_Net_Principal_Limit_text() {
@@ -230,8 +216,7 @@ public class MyLoanSteps extends ObjectBase {
 			reportHardFail("Unable to verify propertyaddress details");
 		}
 	}
-	
-	
+		
 	@Then("verify loan information details")
 	public void verify_loan_information_details() {
 		try {
@@ -248,7 +233,6 @@ public class MyLoanSteps extends ObjectBase {
 		}
 	}
 	
-
 	@When("click on borrower details tab")
 	public void click_on_borrower_details_tab() {
 
@@ -286,10 +270,8 @@ public class MyLoanSteps extends ObjectBase {
 		}
 	}
 
-	
-
 @Then("verify amount displayed for field current net principal limit")
-public void verify_amount_displayed_for_field_current_net_principal_limit() {
+	public void verify_amount_displayed_for_field_current_net_principal_limit() {
 	waits.waitForPageReadyState();
 	try {
 		if (webActions.getText(myLoanPage.currentNetPrincipalLimitValue)
@@ -307,7 +289,7 @@ public void verify_amount_displayed_for_field_current_net_principal_limit() {
 }
 
 @Then("verify amount displayed for field current available line of credit")
-public void verify_amount_displayed_for_field_current_available_line_of_credit() {
+	public void verify_amount_displayed_for_field_current_available_line_of_credit() {
 	try {
 	waits.waitForPageReadyState();
 		if (webActions.getText(myLoanPage.CurrentAvailableLineofCreditValue)
@@ -326,7 +308,7 @@ public void verify_amount_displayed_for_field_current_available_line_of_credit()
 }
 
 @Then("verify amount displayed for field current total loan balance")
-public void verify_amount_displayed_for_field_current_total_loan_balance() {
+	public void verify_amount_displayed_for_field_current_total_loan_balance() {
 	try {
 		waits.waitForPageReadyState();
 
@@ -345,7 +327,7 @@ public void verify_amount_displayed_for_field_current_total_loan_balance() {
 }
 
 @Then("verify amount displayed for field interest rate")
-public void verify_amount_displayed_for_field_interest_rate() {
+	public void verify_amount_displayed_for_field_interest_rate() {
 	try {
 		waits.waitForPageReadyState();
 
@@ -364,7 +346,7 @@ public void verify_amount_displayed_for_field_interest_rate() {
 }
 
 @Then("verify amount displayed for field set aside funds")
-public void verify_amount_displayed_for_field_set_aside_funds() {
+	public void verify_amount_displayed_for_field_set_aside_funds() {
     
 	try {
 		waits.waitForPageReadyState();
@@ -384,7 +366,7 @@ public void verify_amount_displayed_for_field_set_aside_funds() {
 }
 
 @Then("verify that two sections are displayed in borrower details tab")
-public void verify_that_two_sections_are_displayed_in_borrower_details_tab() {
+	public void verify_that_two_sections_are_displayed_in_borrower_details_tab() {
 	try {
 		if (webActions.getText(myLoanPage.BorDetYourProfile)
 				.contains(jsonDataParser.getTestDataMap().get("YourProfile"))  &&
@@ -404,7 +386,7 @@ public void verify_that_two_sections_are_displayed_in_borrower_details_tab() {
 }
 
 @Then("verify that three sections are displayed in borrower details your profile tab")
-public void verify_that_three_sections_are_displayed_in_borrower_details_your_profile_tab() {
+	public void verify_that_three_sections_are_displayed_in_borrower_details_your_profile_tab() {
 	try {
 		if (webActions.getText(myLoanPage.BorDetPersonalDetails)
 				.contains(jsonDataParser.getTestDataMap().get("YourProfilePersonalDetails"))  &&
@@ -425,9 +407,8 @@ public void verify_that_three_sections_are_displayed_in_borrower_details_your_pr
 	}	
 }
 
-
 @Then("verify that name and dob are displaying in personal details section")
-public void verify_that_name_and_dob_are_displaying_in_personal_details_section() { 
+	public void verify_that_name_and_dob_are_displaying_in_personal_details_section() { 
 	try {
 		waits.waitForPageReadyState();
 		String actualBorrower = webActions.getText(myLoanPage.borrowerDetailsName);
@@ -454,7 +435,7 @@ public void verify_that_name_and_dob_are_displaying_in_personal_details_section(
 }
 
 @Then("verify that mobileno and emailid are displaying in contact information section")
-public void verify_that_mobileno_and_emailid_are_displaying_in_contact_information_section() {
+	public void verify_that_mobileno_and_emailid_are_displaying_in_contact_information_section() {
 	try {
 		waits.waitForPageReadyState();
 		String borDetContInfoMobNo = webActions.getText(myLoanPage.borDetContInfoMobNo);
@@ -481,7 +462,7 @@ public void verify_that_mobileno_and_emailid_are_displaying_in_contact_informati
 }
 
 @Then("verify that mailingaddlineone and mailingaddlineone are displaying in mailing address section")
-public void verify_that_mailingaddlineone_and_mailingaddlineone_are_displaying_in_mailing_address_section() {
+	public void verify_that_mailingaddlineone_and_mailingaddlineone_are_displaying_in_mailing_address_section() {
    
 	try {
 		waits.waitForPageReadyState();
@@ -510,7 +491,7 @@ public void verify_that_mailingaddlineone_and_mailingaddlineone_are_displaying_i
 }
 
 @Then("verify personal details name are displaying in personal details section")
-public void verify_personal_details_name_are_displaying_in_personal_details_section() {
+	public void verify_personal_details_name_are_displaying_in_personal_details_section() {
 	try {
 		waits.waitForPageReadyState();
 		String borDetOthBorPerDetailsName = webActions.getText(myLoanPage.borDetOthBorPerDetailsName);
@@ -536,7 +517,7 @@ public void verify_personal_details_name_are_displaying_in_personal_details_sect
 }
 
 @Then("verify borrower details what is required to change my information above link")
-public void verify_borrower_details_what_is_required_to_change_my_information_above_link() {
+	public void verify_borrower_details_what_is_required_to_change_my_information_above_link() {
 	try {
 		waits.waitForPageReadyState();
 		webActions.clickElement(myLoanPage.borDetChangInfoLink);
@@ -550,7 +531,7 @@ public void verify_borrower_details_what_is_required_to_change_my_information_ab
 }
 
 @Then("verify on click mailing address and name changes text")
-public void verify_on_click_mailing_address_and_name_changes_text() {
+	public void verify_on_click_mailing_address_and_name_changes_text() {
 	try {
 		waits.waitForPageReadyState();
 		String ComnQsnMailingAdrsandNameChagText = webActions.getText(myLoanPage.ComnQsnMailingAdrsandNameChagText);
@@ -570,9 +551,8 @@ public void verify_on_click_mailing_address_and_name_changes_text() {
 	}
 }
 
-
 @Then("verify the field text choose the year")
-public void verify_the_field_text_choose_the_year() {
+	public void verify_the_field_text_choose_the_year() {
 	try {
 		waits.waitForPageReadyState();
 
@@ -590,10 +570,8 @@ public void verify_the_field_text_choose_the_year() {
 	}
 }
 
-
-
 @Then("verify default fault year from dropdown")
-public void verify_default_fault_year_from_dropdown() {
+	public void verify_default_fault_year_from_dropdown() {
 	try {
 		waits.waitForPageReadyState();
 
@@ -612,7 +590,7 @@ public void verify_default_fault_year_from_dropdown() {
 }
 
 @Then("verify the field text how to read my statement")
-public void verify_the_field_text_how_to_read_my_statement() {
+	public void verify_the_field_text_how_to_read_my_statement() {
 	try {
 		waits.waitForPageReadyState();
 
@@ -631,7 +609,7 @@ public void verify_the_field_text_how_to_read_my_statement() {
 }
 
 @Then("verify the field link how to read my statement is clickable")
-public void verify_the_field_link_how_to_read_my_statement_is_clickable() {
+	public void verify_the_field_link_how_to_read_my_statement_is_clickable() {
 	try {
 		waits.waitForPageReadyState();
 		webActions.clickElement(myLoanPage.HowToReadMyStatement);
@@ -645,7 +623,7 @@ public void verify_the_field_link_how_to_read_my_statement_is_clickable() {
 }
 
 @Then("verify recent transactions contains all the table field names")
-public void verify_recent_transactions_contains_all_the_table_field_names() {
+	public void verify_recent_transactions_contains_all_the_table_field_names() {
 	ArrayList<String> headerValues = BorrowerWebUtil.getTableheaderValues(myLoanPage.LoanDetailsRecentTransactionTableHeader);
 	
 	List<String> HeaderNamelistbackend = MyLoanPage.headerNamelistbe();
@@ -661,7 +639,7 @@ public void verify_recent_transactions_contains_all_the_table_field_names() {
 }
 
 @Then("verify recent transactions contains all the table field values")
-public void verify_recent_transactions_contains_all_the_table_field_values() {
+	public void verify_recent_transactions_contains_all_the_table_field_values() {
 	
 	try {
 		waits.waitForPageReadyState();
@@ -683,10 +661,8 @@ public void verify_recent_transactions_contains_all_the_table_field_values() {
 	
 }
 
-
-
 @When("click on view all transactions link")
-public void click_on_view_all_transactions_link() {
+	public void click_on_view_all_transactions_link() {
 	try {
 		waits.waitForPageReadyState();
 		webActions.clickElement(myLoanPage.ViewAllTransactionsLink);
@@ -699,7 +675,7 @@ public void click_on_view_all_transactions_link() {
 }
 
 @Then("verify on click of view all transactions link should navigate to transaction history table")
-public void verify_on_click_of_view_all_transactions_link_should_navigate_to_transaction_history_table() {
+	public void verify_on_click_of_view_all_transactions_link_should_navigate_to_transaction_history_table() {
 	try {
 		waits.waitForPageReadyState();
 		webActions.clickElement(myLoanPage.ViewAllTransactionsLink);
@@ -713,12 +689,8 @@ public void verify_on_click_of_view_all_transactions_link_should_navigate_to_tra
 	}
 }
 
-
-
-
-
 @Then("verify default transaction history table header names")
-public void verify_default_transaction_history_table_header_names() {
+	public void verify_default_transaction_history_table_header_names() {
 	ArrayList<String> UiheaderValues = BorrowerWebUtil.getTableheaderValues(myLoanPage.TransactionHistoryTransactionTableHeader);
 	System.out.println(UiheaderValues);
 	
@@ -734,11 +706,8 @@ public void verify_default_transaction_history_table_header_names() {
 	 }
 }
 
-
-
-
 @Then("verify default year displayed in dropdown")
-public void verify_default_year_displayed_in_dropdown() {
+	public void verify_default_year_displayed_in_dropdown() {
 	try {
 		waits.waitForPageReadyState();
 
@@ -758,7 +727,7 @@ public void verify_default_year_displayed_in_dropdown() {
 }
 
 @Then("verify default list of year")
-public void verify_default_list_of_year() {
+	public void verify_default_list_of_year() {
 	
 	webActions.clickElement(myLoanPage.TransactionHistorYearDropDown);
 	waits.waitForPageReadyState();			
@@ -779,10 +748,6 @@ public void verify_default_list_of_year() {
 	
 }
 
-
-
-
-
 	@Then("verify transaction history header values")
 	public void verify_transaction_history_header_values() {
 	try {
@@ -801,7 +766,6 @@ public void verify_default_list_of_year() {
 		reportHardFail("Unable to verify transaction history transaction table values");
 	}
 }
-
 	
 	@When("select a year other then default year")
 	public void select_a_year_other_then_default_year() {
@@ -813,5 +777,3 @@ public void verify_default_list_of_year() {
 	}
 
 }
-
-
