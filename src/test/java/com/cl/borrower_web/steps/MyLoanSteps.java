@@ -631,7 +631,7 @@ public class MyLoanSteps extends ObjectBase {
 		 reportPass("header name matches -"+headerValues);
 	 }else {
 	
-			reportHardFail("header name miss matches "+headerValues);
+			reportHardFail("header name mismatches "+headerValues);
 	 }
 }
 
