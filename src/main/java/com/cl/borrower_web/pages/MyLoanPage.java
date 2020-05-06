@@ -197,15 +197,299 @@ public class MyLoanPage extends ObjectBase {
 	
 	
 	// transaction-history header name list
-		public static List<String> headerNamelistbe() {
-		
+		public static List<String> headerNamelistbe() {		
 			 List<String> HeaderNamelistbackend = Arrays.asList( "Date", "Transaction", "Amount", "Interest", "MIP", "Servicing Fees", "Trans. Total", "Ending Balance");
 			
-			return HeaderNamelistbackend;	
-		
+			return HeaderNamelistbackend;		
 		}
-	
 		
-	
+		public void clickCommonFormTab() {
+			BorrowerWebUtil.clickWebElement(commonFormTab, "clickCommonFormTab");
+		}
+		
+		public void clickCommonQuestionsTab() {
+			BorrowerWebUtil.clickWebElement(commonQuestionsTab, "clickCommonQuestionsTab");
+		}
+		
+		public void clickMyLoanTab() {
+			BorrowerWebUtil.clickWebElement(myLoanTab, "clickMyLoanTab");
+		}
+		
+		public void clickViewAllTransactionsLink() {
+			BorrowerWebUtil.clickWebElement(ViewAllTransactionsLink, "clickViewAllTransactionsLink");
+		}
+		
+		public void clickLoanDetailsTab() {
+			BorrowerWebUtil.clickWebElement(loanDetailsTab, "clickLoanDetailsTab");
+		}
+		
+		public void clickMonthlyStatementTab() {
+			BorrowerWebUtil.clickWebElement(MonthlyStatementTab, "clickMonthlyStatementTab");
+		}
+		
+		public void clickTransactionHistoryTab() {
+			BorrowerWebUtil.clickWebElement(TransactionHistoryTab, "clickTransactionHistoryTab");
+		}
+		
+		public void clickBorrowerDetailsTab() {
+			BorrowerWebUtil.clickWebElement(borrowerDetailsTab, "clickBorrowerDetailsTab");
+		}
+		
+		public void clickBorDetChangInfoLink() {
+			BorrowerWebUtil.clickWebElement(borDetChangInfoLink, "clickBorDetChangInfoLink");
+		}
+		
+		public void clickHowToReadMyStatement() {
+			BorrowerWebUtil.clickWebElement(HowToReadMyStatement, "clickHowToReadMyStatement");
+		}
+		
+		public void clickTransactionHistorYearDropDown() {
+			BorrowerWebUtil.clickWebElement(TransactionHistorYearDropDown, "clickTransactionHistorYearDropDown");
+		}
+		
+		public void clickTransactionHistorYearDropDownValues() {
+			BorrowerWebUtil.clickWebElement(TransactionHistorYearDropDownValues, "clickTransactionHistorYearDropDownValues");
+		}
+		
+		public boolean verifyCommonQuestionsPgTitle(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(commonQuestionsText, message)) {
+					LogUtility.logInfo("-->verifyCommonQuestionsPgTitle<--", "Page Title: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyCommonQuestionsPgTitle<--", "Page Title: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyPropertyAddress(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(propertyAddress, message)) {
+					LogUtility.logInfo("-->verifyPropertyAddress<--", "Property Address: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyPropertyAddress<--", "Property Address: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyLoanInformation(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(loanInformation, message)) {
+					LogUtility.logInfo("-->verifyLoanInformation<--", "Loan Information: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyLoanInformation<--", "Loan Information: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyMyLoanPgTitle(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(myLoanText, message)) {
+					LogUtility.logInfo("-->verifyMyLoanPgTitle<--", "Page Title: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyMyLoanPgTitle<--", "Page Title: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyLoanInfoAccNumber(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(accountNumber, message)) {
+					LogUtility.logInfo("-->verifyLoanInfoAccNumber<--", "Account Number: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyLoanInfoAccNumber<--", "Account Number: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyCommonQuestionPgTitle(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(commonQuestionsText, message)) {
+					LogUtility.logInfo("-->verifyCommonQuestionPgTitle<--", "Page Title: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyCommonQuestionPgTitle<--", "Page Title: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyCurrNetPrincipalLimit(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(currentNetPrincipalLimitText, message)) {
+					LogUtility.logInfo("-->verifyCurrNetPrincipalLimit<--", "Current Net Principal Limit: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyCurrNetPrincipalLimit<--", "Current Net Principal Limit: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyPropertyAddLine1(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(propertyAddressLineOne, message)) {
+					LogUtility.logInfo("-->verifyPropertyAddLine1<--", "Property Add Line1: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyPropertyAddLine1<--", "Property Add Line1: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyPropertyAddLine2(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(propertyAddressLineTwo, message)) {
+					LogUtility.logInfo("-->verifyPropertyAddLine2<--", "Property Add Line2: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyPropertyAddLine2<--", "Property Add Line2: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyLoanInfoLoanType(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(LoanType, message)) {
+					LogUtility.logInfo("-->verifyLoanInfoLoanType<--", "Loan Type: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyLoanInfoLoanType<--", "Loan Type: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyBorrowerName(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(borrowerDetailsName, message)) {
+					LogUtility.logInfo("-->verifyBorrowerName<--", "Borrower Name: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyBorrowerName<--", "Borrower Name: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyCurrNetPrincipalLimitAmt(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(currentNetPrincipalLimitValue, message)) {
+					LogUtility.logInfo("-->verifyCurrNetPrincipalLimitAmt<--", "Current Net Principal Limit Amount: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyCurrNetPrincipalLimitAmt<--", "Current Net Principal Limit Amount: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyCurrAvailableLineofCreditAmt(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(CurrentAvailableLineofCreditValue, message)) {
+					LogUtility.logInfo("-->verifyCurrAvailableLineofCreditAmt<--", "CurrAvailableLine-of-Credit Amount: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyCurrAvailableLineofCreditAmt<--", "CurrAvailableLine-of-Credit Amount: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyCurrentTotalLoanBalanceAmt(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(CurrentTotalLoanBalanceValue, message)) {
+					LogUtility.logInfo("-->verifyCurrentTotalLoanBalanceAmt<--", "Current Total Loan Balance Amount: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyCurrentTotalLoanBalanceAmt<--", "Current Total Loan Balance Amount: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifyInterestRateAmt(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(InterestRateValue, message)) {
+					LogUtility.logInfo("-->verifyInterestRateAmt<--", "Interest Rate Amount: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifyInterestRateAmt<--", "Interest Rate Amount: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
+		public boolean verifySetAsideFundsAmt(String message) {
+			waits.waitForPageReadyState();
+			waits.waitForDOMready();
+			try {
+				if (BorrowerWebUtil.verifyTextContains(SetAsideFundsValue, message)) {
+					LogUtility.logInfo("-->verifySetAsideFundsAmt<--", "Set Aside Funds Amount: " + message + " is displayed");
+					return true;
+				}
+			} catch (Exception e) {
+				LogUtility.logException("->verifySetAsideFundsAmt<--", "Set Aside Funds Amount: " + message + " is not displayed", e,
+						LoggingLevel.ERROR, true);
+			}
+			return false;
+		}
+		
 }
 
