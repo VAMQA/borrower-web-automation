@@ -7,7 +7,7 @@ Feature: Borrower portal my loan
 	Scenario: In borrower portal verify details in my loan page
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     Then verify navigational options should be displayed to the top right
     Then verify property address and loan information
@@ -25,7 +25,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify property details in myloan page
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     Then verify property address and loan information
     Then verify property address details
@@ -37,7 +37,7 @@ Feature: Borrower portal my loan
 	Scenario: In myoan verify property details in myloan page
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     Then verify property address and loan information
     Then verify loan information details
@@ -49,7 +49,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify property details in myloan Page
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -68,7 +68,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify borrower details tab  in my loan page
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -84,7 +84,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify profile section in borrower details tab
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -101,7 +101,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify personal detail sub section under my profile section
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -119,7 +119,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify contact information sub section under my profile section
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -137,7 +137,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify mailing address sub section under my profile section
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -155,7 +155,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify other borrower section under Borrower tab
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -172,7 +172,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify the link below the Other Borrowers section
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -190,7 +190,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify the link text is clickable
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on transaction history tab
     When click on monthly statement tab
@@ -209,7 +209,7 @@ Feature: Borrower portal my loan
 	  Scenario: In monthly statements verify fields
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on monthly statement tab
     Then verify the field text choose the year
@@ -223,7 +223,7 @@ Feature: Borrower portal my loan
 	Scenario: In monthly statements verify the link text is clickable
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     When click on monthly statement tab
     Then verify the field link how to read my statement is clickable
@@ -235,7 +235,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify recent transactions contains table field names
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     Then verify property address and loan information
     Then verify loan information account number
@@ -252,7 +252,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan verify recent transactions contains table field names and values
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
     Then verify property address and loan information
     Then verify loan information account number
@@ -270,7 +270,7 @@ Feature: Borrower portal my loan
 	Scenario: In myloan on click on recent transactions navigate to transaction history table
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
 		When click on view all transactions link
 		Then verify on click of view all transactions link should navigate to transaction history table
@@ -283,7 +283,7 @@ Feature: Borrower portal my loan
 	Scenario: Navigate to transaction history table
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
 		When click on transaction history tab
 		Then verify default transaction history table header names
@@ -298,7 +298,7 @@ Feature: Borrower portal my loan
 	Scenario: In transaction history table verify table values
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
 		When click on transaction history tab
     Then verify default transaction history table header names
@@ -311,7 +311,7 @@ Feature: Borrower portal my loan
 	Scenario: In transaction history verify total values in the last column
 		Given i load testdata from: "BorrowerPortalVerifyData.json", "MyLoanDetails"
     Given i logged into borrower portal
-    When i enters username and password and click on signin button
+    When i enter username and password and click on signin button
     Then verify the landing page displays header as my loan
 		When click on transaction history tab
 		Then verify default transaction history table header names
