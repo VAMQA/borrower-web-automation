@@ -66,9 +66,8 @@ Feature: Login and Upload a form in common forms Page
     When i enter username and password and click on signin button
     And i click on common questions button in my loan page
     Then verify the page displays header as common questions
-    When i click on common questions button in my loan page
-    Then verify the page displays header as common questions
     When i click on Advancing Funds from Your Reverse Mortgage topic under List of Topics
+    Then verify Page contains header subheader 
     Then verify page is navigated to Advancing Funds from Your Reverse Mortgage section present to the right side
     Then verify the subheader is displayed as Requesting Funds
     When i click on question Can an Attorney-in-Fact who has Power of Attorney sign the Line of Credit Advance Request form for the borrower(s)?
@@ -197,12 +196,14 @@ Feature: Login and Upload a form in common forms Page
   #TestCaseName : BP_TC94-commonQuestions_UI_Verify question 6 in Repairs subsection
   @CommonQuestionsTest
   Scenario: Verify that question 1 and its associated answer is  displaying correctly under Payment Plan Changes (PPCs)  sub section
-    Given i load testdata from: "CommonQuestionsData.json", "CommonQuestionsTestData"
+Given i load testdata from: "CommonQuestionsData.json", "CommonQuestionsTestData"
     Given i logged into borrower portal
     When i enter username and password and click on signin button
     And i click on common questions button in my loan page
     Then verify the page displays header as common questions
-    Then verify the header display as Advancing Funds from Your Reverse Mortgage
-    Then verify the subheader is displayed as Payment Plan Changes (PPCs)
-    When i click on question What types of Payment Plans are available?
-    Then verify question should get expanded and answer should be displayed as for most reverse mortagages etc
+    When i click on Advancing Funds from Your Reverse Mortgage topic under List of Topics
+    Then verify Page contains header subheader 
+    Then verify page is navigated to Advancing Funds from Your Reverse Mortgage section present to the right side
+    Then verify the subheader is displayed as Requesting Funds
+    When i click on question Can an Attorney-in-Fact who has Power of Attorney sign the Line of Credit Advance Request form for the borrower(s)?
+    Then verify question should get expanded and answer should be displayed as Yes, the attorney etc

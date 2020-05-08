@@ -44,7 +44,7 @@ public class CommonQuestionsPage extends ObjectBase {
 
 	@FindBy(how = How.XPATH, using = "//h3[@id='popular']//following::div[1]//a[text()='LOC Advance Request form']")
 	public WebElement popular_LOCAdvanceRequestForm_pdflink;
-	
+
 	@FindBy(how = How.XPATH, using = "//h3[@id='popular']//following::div[1]//a[text()='lineofcredit@reversedepartment.com']")
 	public WebElement popular_lineofcredit_email;
 
@@ -82,56 +82,92 @@ public class CommonQuestionsPage extends ObjectBase {
 			return false;
 		}
 
-	}	
-	
-	
-	public WebElement GetTopic_Element(String topicName)
-	{
+	}
+
+	public WebElement GetTopic_Element(String topicName) {
 		return driver.findElement(By.xpath("//div[@id='sidebar']//a[text()='" + topicName + "']"));
 	}
-	
-	public WebElement GetHeaderElement(String questionMainheadding)
-	{
+
+	public WebElement GetHeaderElement(String questionMainheadding) {
 		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']"));
 	}
-	
-	public WebElement GetSubheader_Element(String questionMainheadding, String questionSubHeader)
-	{
-		//h3[text()='How Do Reverse Mortgages Work?']//following-sibling::h5[text()='Home ownership']
-		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='" + questionSubHeader + "']"));
+
+	public WebElement GetSubheader_Element(String questionMainheadding, String questionSubHeader) {
+		// h3[text()='How Do Reverse Mortgages
+		// Work?']//following-sibling::h5[text()='Home ownership']
+		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='"
+				+ questionSubHeader + "']"));
 	}
-	
-	public WebElement GetQuestion_withSubheader_Element(String questionMainheadding, String questionSubHeader, String question)
-	{
-		//h3[text()='How Do Reverse Mortgages Work?']//following-sibling::h5[text()='Home ownership']//following-sibling::div//button[text()='Who owns my home?']
-		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='" + questionSubHeader + "']//following-sibling::div//button[text()='" + question +"']"));
+
+	public WebElement GetQuestion_withSubheader_Element(String questionMainheadding, String questionSubHeader,
+			String question) {
+		// h3[text()='How Do Reverse Mortgages
+		// Work?']//following-sibling::h5[text()='Home
+		// ownership']//following-sibling::div//button[text()='Who owns my home?']
+		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='"
+				+ questionSubHeader + "']//following-sibling::div//button[text()='" + question + "']"));
 	}
-	
-	public WebElement GetQuestion_withheader_Element(String questionMainheadding, String question)
-	{
-		////h3[@id='popular']//following::div[1]//button[text()='How do I request an advance from my Line of Credit (LOC)?']
-		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following::div[1]//button[text()='" + question +"']"));
+
+	public WebElement GetQuestion_withheader_Element(String questionMainheadding, String question) {
+		//// h3[@id='popular']//following::div[1]//button[text()='How do I request an
+		//// advance from my Line of Credit (LOC)?']
+		return driver.findElement(By.xpath(
+				"//h3[text()='" + questionMainheadding + "']//following::div[1]//button[text()='" + question + "']"));
 	}
-	
-	public WebElement GetAnswer_withheader_Element(String questionMainheadding, String question)
-	{
-		//h3[@id='popular']//following::div[1]//button[text()='How do I request an advance from my Line of Credit (LOC)?']//following::div[1]
-		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following::div[1]//button[text()='" + question +"']//following::div[1]"));
+
+	public WebElement GetAnswer_withheader_Element(String questionMainheadding, String question) {
+		// h3[@id='popular']//following::div[1]//button[text()='How do I request an
+		// advance from my Line of Credit (LOC)?']//following::div[1]
+		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding
+				+ "']//following::div[1]//button[text()='" + question + "']//following::div[1]"));
 	}
-	
-	public WebElement GetAnswer_withSubheader_Element(String questionMainheadding, String questionSubHeader, String question)
-	{
-		//h3[text()='How Do Reverse Mortgages Work?']//following-sibling::h5[text()='Home ownership']//following-sibling::div//button[text()='Who owns my home?']//following::div[1]
-		return driver.findElement(By.xpath("//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='" + questionSubHeader + "']//following-sibling::div//button[text()='" + question +"']//following::div[1]"));
+
+	public WebElement GetAnswer_withSubheader_Element(String questionMainheadding, String questionSubHeader,
+			String question) {
+		// h3[text()='How Do Reverse Mortgages
+		// Work?']//following-sibling::h5[text()='Home
+		// ownership']//following-sibling::div//button[text()='Who owns my
+		// home?']//following::div[1]
+		return driver.findElement(By
+				.xpath("//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='" + questionSubHeader
+						+ "']//following-sibling::div//button[text()='" + question + "']//following::div[1]"));
 	}
-	
-	public WebElement GetAnswer_withSubheader_Element(String questionMainheadding, String questionSubHeader, String question, String textType)
-	{
-		String locator ="//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='" + questionSubHeader + "']//following-sibling::div//button[text()='" + question +"']//following::div[1]"; 
-		if(textType.equalsIgnoreCase("Bold"))
+
+	public WebElement GetAnswer_withSubheader_Element(String questionMainheadding, String questionSubHeader,
+			String question, String textType) {
+		String locator = "//h3[text()='" + questionMainheadding + "']//following-sibling::h5[text()='"
+				+ questionSubHeader + "']//following-sibling::div//button[text()='" + question
+				+ "']//following::div[1]";
+		if (textType.equalsIgnoreCase("Bold"))
 			locator = locator + "//strong";
-			
-		return driver.findElement(By.xpath(locator));		
+
+		return driver.findElement(By.xpath(locator));
+	}
+
+	public String GetAnswerCommonQuestion(String header, String subheader, String question) {
+		String actualAnswer = null;
+
+		for (WebElement headerElement : CommonQuestionsList) {
+			if (webActions.getText(headerElement).contains(header)) {
+				List<WebElement> lstSubHeaderElements = headerElement.findElements(By.xpath("//following-sibling::h5"));
+				for (WebElement subheaderElement : lstSubHeaderElements) {
+					if (webActions.getText(subheaderElement).equals(subheader)) {
+						List<WebElement> lstquestionElements = subheaderElement.findElements(
+								By.xpath("//following-sibling::div[1]//div[@class='card-header']//buttton"));
+						for (WebElement questionElement : lstquestionElements) {
+							if (webActions.getText(questionElement).equals(question)) {
+								WebElement answerElement = questionElement
+										.findElement(By.xpath("//following-sibling::div[1]//div[@class='collapse']"));
+								return webActions.getText(answerElement);
+							}
+						}
+					}
+				}
+
+			}
+		}
+
+		return actualAnswer;
 	}
 
 }
