@@ -7,7 +7,7 @@ Feature: Login and Upload a form in common forms Page
   #TestCaseName : BP_TC01-commonQuestions_FUN_Navigate to Common questions Page
   @Smoke
   Scenario: Verify that user is able to navigate to Common Questions page successfully
-    Given i load testdata from: "CommonQuestionsData.json", "CommonQuestionsTestData"
+    Given i load testdatverify Page contains header subheadera from: "CommonQuestionsData.json", "CommonQuestionsTestData"
     Given i logged into borrower portal
     When i enter username and password and click on signin button
     And i click on common questions button in my loan page
@@ -67,7 +67,6 @@ Feature: Login and Upload a form in common forms Page
     And i click on common questions button in my loan page
     Then verify the page displays header as common questions
     When i click on Advancing Funds from Your Reverse Mortgage topic under List of Topics
-    Then verify Page contains header subheader 
     Then verify page is navigated to Advancing Funds from Your Reverse Mortgage section present to the right side
     Then verify the subheader is displayed as Requesting Funds
     When i click on question Can an Attorney-in-Fact who has Power of Attorney sign the Line of Credit Advance Request form for the borrower(s)?
