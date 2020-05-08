@@ -1,0 +1,11 @@
+{
+	"testDataList": {
+		"FooterPageDetails": {
+			"PrivacyPolicy": "Privacy Policy",
+			"TermsAndConditions": "Terms & Conditions",
+			"ScheduleofBorrowerFees": "Schedule of Borrower Fees",
+			"Licenses": "Licenses",
+			"AccessibilityStatement": "Accessibility Statement"
+		}
+	}
+}

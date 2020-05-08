@@ -1,0 +1,8 @@
+{
+	"testDataList": {
+		"LoginPageDetails": {
+			"ErrorMesgWithBlankEmail": "Please make sure to enter both an email and password.",
+			"Answer": "answer1"
+		}
+	}
+}
