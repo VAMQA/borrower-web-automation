@@ -17,7 +17,7 @@ Feature: Common Forms
     And verify the static text present at the top left of the page
 
   #TestCaseName : BP_TC17_commonForms_FUN_Verify that LOC Advance Request form can be uploaded successfully
-  @Smoke2
+  @Smoke2, @BP_TC17
   Scenario: Verify that user is able to navigate to Common Forms page successfully
     Given i load testdata from: "CommonFormsData.json", "CommonFormsValidationData"
     Given i logged into borrower portal
